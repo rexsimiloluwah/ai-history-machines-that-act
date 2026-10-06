@@ -4,8 +4,8 @@
 
 Created by Simi Okunowo, and a beloved machine, Claude Opus 5.5.
 
-**Watch the film:** https://rexsimiloluwah.github.io/ai-history-thinking-machines/  
-**Trailer:** [16:9](https://rexsimiloluwah.github.io/ai-history-thinking-machines/promo/trailer-16x9.mp4) · [4:5 for LinkedIn](https://rexsimiloluwah.github.io/ai-history-thinking-machines/promo/trailer-linkedin-4x5.mp4)
+**Watch the film:** https://rexsimiloluwah.github.io/ai-history-machines-that-act/  
+**Trailer:** [16:9](https://rexsimiloluwah.github.io/ai-history-machines-that-act/promo/trailer-16x9.mp4) · [4:5 for LinkedIn](https://rexsimiloluwah.github.io/ai-history-machines-that-act/promo/trailer-linkedin-4x5.mp4)
 
 ## Watch it
 
