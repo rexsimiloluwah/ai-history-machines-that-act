@@ -1,0 +1,51 @@
+{
+ "turing": {
+  "print": "paper"
+ },
+ "lee-sedol": {
+  "print": "paper"
+ },
+ "weizenbaum": {
+  "print": "paper",
+  "noPool": true
+ },
+ "maniac-chess": {
+  "print": "paper"
+ },
+ "fei-fei-li": {
+  "print": "paper"
+ },
+ "turing-princeton": {
+  "print": "paper",
+  "noPool": true
+ },
+ "dartmouth-proposal": {
+  "print": "paper",
+  "noPool": true
+ },
+ "eliza": {
+  "print": "plain",
+  "noPool": true
+ },
+ "ai-art-dalle": {
+  "print": "plain"
+ },
+ "turing-paper": {
+  "noPool": true
+ },
+ "transformer-diagram": {
+  "noPool": true
+ },
+ "atari": {
+  "noPool": true
+ },
+ "mnist": {
+  "noPool": true
+ },
+ "hinton": {
+  "focus": "46% 35%"
+ },
+ "kasparov": {
+  "focus": "46% 40%"
+ }
+}

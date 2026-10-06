@@ -1,0 +1,54 @@
+[
+ {
+  "id": "power-trump",
+  "file": "assets/img/power-trump.jpg",
+  "w": 1200,
+  "h": 1600,
+  "title": "Donald J. Trump, official presidential portrait, 2025",
+  "author": "Daniel Torok",
+  "license": "Public domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "source": "https://commons.wikimedia.org/wiki/File:Official_Presidential_Portrait_of_President_Donald_J._Trump_(2025)_(3x4_close_cropped).jpg",
+  "focus": "50% 18%",
+  "noPool": true
+ },
+ {
+  "id": "power-xi",
+  "file": "assets/img/power-xi.jpg",
+  "w": 836,
+  "h": 1600,
+  "title": "Xi Jinping, 2019",
+  "author": "Press Service of the President of the Russian Federation / Roman Kubanskiy (Wikimedia Commons)",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Xi_Jinping_portrait_2019.jpg",
+  "focus": "50% 14%",
+  "noPool": true
+ },
+ {
+  "id": "power-altman",
+  "file": "assets/img/power-altman.jpg",
+  "w": 1173,
+  "h": 1600,
+  "title": "Sam Altman at TechCrunch Disrupt, San Francisco, 2019",
+  "author": "TechCrunch",
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Sam_Altman_TechCrunch_SF_2019_Day_2_Oct_3_(cropped)_(cropped).jpg",
+  "focus": "55% 24%",
+  "noPool": true
+ },
+ {
+  "id": "power-amodei",
+  "file": "assets/img/power-amodei.jpg",
+  "w": 1000,
+  "h": 1600,
+  "title": "Dario Amodei, 2023",
+  "author": "UK Prime Minister",
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0",
+  "source": "https://commons.wikimedia.org/wiki/File:Dario_Amodei_in_2023.jpg",
+  "focus": "58% 18%",
+  "noPool": true
+ }
+]

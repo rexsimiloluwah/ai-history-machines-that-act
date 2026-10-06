@@ -1,0 +1,335 @@
+[
+ {
+  "date": "2025-11-13",
+  "category": "WHEN AI GOES WRONG",
+  "headline": "Hackers used Claude to automate a spying campaign",
+  "detail": "Anthropic said a Chinese state-sponsored group used Claude Code to target about 30 organizations, with AI doing 80–90% of the work.",
+  "source": "Anthropic",
+  "url": "https://www.anthropic.com/news/disrupting-AI-espionage",
+  "confidence": "high"
+ },
+ {
+  "date": "2025-12-11",
+  "category": "POLICY / SAFETY",
+  "headline": "Trump order moves to override state AI laws",
+  "detail": "Executive Order 14365 creates a Justice Department task force to challenge state AI laws and ties some broadband funding to compliance.",
+  "source": "The White House",
+  "url": "https://www.whitehouse.gov/presidential-actions/2025/12/eliminating-state-law-obstruction-of-national-artificial-intelligence-policy/",
+  "confidence": "high"
+ },
+ {
+  "date": "2026-01-05",
+  "category": "ROBOTS",
+  "headline": "Boston Dynamics puts its Atlas humanoid into production",
+  "detail": "Unveiled at CES, the product version of Atlas began manufacturing immediately; 2026 fleets go to Hyundai's robotics centre and Google DeepMind.",
+  "source": "Boston Dynamics",
+  "url": "https://bostondynamics.com/blog/boston-dynamics-unveils-new-atlas-robot-to-revolutionize-industry/",
+  "confidence": "high"
+ },
+ {
+  "date": "2026-01-09",
+  "category": "WHEN AI GOES WRONG",
+  "headline": "Grok's 'undressing' images spark a global backlash",
+  "detail": "Grok was used to create non-consensual sexualised images of women and children; xAI limited image tools to paying subscribers as UK regulators threatened action.",
+  "source": "The Guardian",
+  "url": "https://www.theguardian.com/technology/2026/jan/09/grok-image-generator-outcry-sexualised-ai-imagery",
+  "confidence": "high"
+ },
+ {
+  "date": "2026-01-28",
+  "category": "AGENTS",
+  "headline": "A social network just for AI agents goes viral",
+  "detail": "Moltbook launched as a Reddit-style forum where AI agents, mostly running open-source OpenClaw, post and vote while humans are invited only to watch.",
+  "source": "NBC News",
+  "url": "https://www.nbcnews.com/tech/tech-news/ai-agents-social-media-platform-moltbook-rcna256738",
+  "confidence": "high"
+ },
+ {
+  "date": "2026-02-03",
+  "category": "SOFTWARE",
+  "headline": "AI agent plug-ins trigger a software stock rout",
+  "detail": "After Anthropic released Claude Cowork plug-ins automating legal, sales and data work, Thomson Reuters fell about 18% and RELX 14% in a day.",
+  "source": "Reuters (via Yahoo Finance)",
+  "url": "https://finance.yahoo.com/news/anthropics-ai-tools-deepen-selloff-054551832.html",
+  "confidence": "high"
+ },
+ {
+  "date": "2026-02-21",
+  "category": "POLICY / SAFETY",
+  "headline": "India's AI summit ends with 88-party declaration",
+  "detail": "The non-binding New Delhi Declaration on AI Impact, endorsed by 88 countries and organisations including the US and China, backs inclusive, human-centric AI.",
+  "source": "Fortune",
+  "url": "https://fortune.com/2026/02/23/indias-ai-impact-summit-closes-with-the-new-delhi-declaration-and-a-200-billion-boost",
+  "confidence": "high"
+ },
+ {
+  "date": "2026-02-27",
+  "category": "REAL WORLD",
+  "headline": "ChatGPT hits 900 million weekly users",
+  "detail": "OpenAI also reported 50 million paying subscribers, up from 800 million weekly users in October 2025.",
+  "source": "TechCrunch",
+  "url": "https://techcrunch.com/2026/02/27/chatgpt-reaches-900m-weekly-active-users",
+  "confidence": "high"
+ },
+ {
+  "date": "2026-04-07",
+  "category": "FRONTIERS",
+  "headline": "Anthropic restricts a model that finds thousands of zero-days",
+  "detail": "Claude Mythos Preview found high-severity flaws in every major OS and browser, including a 27-year-old OpenBSD bug; access limited to vetted defenders.",
+  "source": "Anthropic (Project Glasswing)",
+  "url": "https://www.anthropic.com/glasswing",
+  "confidence": "high"
+ },
+ {
+  "date": "2026-04-13",
+  "category": "SOFTWARE",
+  "headline": "Jobs for young software developers drop nearly 20%",
+  "detail": "Stanford's 2026 AI Index found employment of developers aged 22–25 fell nearly 20% since 2024, even as older colleagues' headcount grew.",
+  "source": "Stanford HAI",
+  "url": "https://hai.stanford.edu/news/inside-the-ai-index-12-takeaways-from-the-2026-report",
+  "confidence": "high"
+ },
+ {
+  "date": "2026-04-19",
+  "category": "ROBOTS",
+  "headline": "Humanoid robot wins Beijing half-marathon in 50 minutes",
+  "detail": "Robot 'Shandian' won Beijing E-Town's humanoid half-marathon in 50:26, faster than the human world record; remote-controlled entrants had times multiplied by 1.2.",
+  "source": "Beijing Municipal Government",
+  "url": "https://english.beijing.gov.cn/latest/news/202604/t20260419_4593508.html",
+  "confidence": "high"
+ },
+ {
+  "date": "2026-04-22",
+  "category": "SOFTWARE",
+  "headline": "AI now writes 75% of Google's new code",
+  "detail": "Sundar Pichai said 75% of all new code at Google is AI-generated and approved by engineers, up from 50% last autumn.",
+  "source": "Google",
+  "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/cloud-next-2026-sundar-pichai/",
+  "confidence": "high"
+ },
+ {
+  "date": "2026-04-24",
+  "category": "FRONTIERS",
+  "headline": "DeepSeek open-sources a 1.6-trillion-parameter model",
+  "detail": "DeepSeek released open weights for V4-Pro and V4-Flash with million-token context, claiming V4-Pro rivals the world's top closed-source models.",
+  "source": "DeepSeek",
+  "url": "https://api-docs.deepseek.com/news/news260424",
+  "confidence": "high"
+ },
+ {
+  "date": "2026-05-08",
+  "category": "AGENTS",
+  "headline": "AI agents now tackle tasks taking experts 16+ hours",
+  "detail": "METR estimated Claude Mythos Preview's 50% time horizon tops 16 expert-hours, versus about 5 in late 2025, though it calls such measurements unreliable.",
+  "source": "METR",
+  "url": "https://metr.org/time-horizons/",
+  "confidence": "high"
+ },
+ {
+  "date": "2026-05-20",
+  "category": "SCIENCE",
+  "headline": "AI disproves an 80-year-old Erdős geometry conjecture",
+  "detail": "An internal OpenAI model found point arrangements with more unit distances than conjectured; mathematicians including Tim Gowers and Noga Alon verified the proof.",
+  "source": "OpenAI",
+  "url": "https://openai.com/index/model-disproves-discrete-geometry-conjecture/",
+  "confidence": "high"
+ },
+ {
+  "date": "2026-06-09",
+  "category": "AGENTS",
+  "headline": "Claude beats Pokémon FireRed from raw screenshots alone",
+  "detail": "Anthropic's Claude Fable 5 finished the game with a minimal vision-only harness, no maps or game-state data, where earlier models needed elaborate helper tools.",
+  "source": "Anthropic",
+  "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+  "confidence": "high"
+ },
+ {
+  "date": "2026-06-09",
+  "category": "SOFTWARE",
+  "headline": "AI migrates a 50-million-line codebase in a day",
+  "detail": "Stripe reported Claude Fable 5 completed a codebase-wide Ruby migration in a day that would have taken a team over two months by hand.",
+  "source": "Anthropic",
+  "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
+  "confidence": "high"
+ },
+ {
+  "date": "2026-06-25",
+  "category": "ROBOTS",
+  "headline": "BMW deploys Figure 03 humanoids at US plant",
+  "detail": "At Spartanburg, Figure 03 robots sort parts into sequencing trolleys; their predecessor helped build over 30,000 BMW X3s during a 10-month deployment.",
+  "source": "BMW Group PressClub",
+  "url": "https://www.press.bmwgroup.com/global/article/detail/T0458778EN/bmw-group-advances-the-use-of-physical-ai-in-production-with-fig",
+  "confidence": "high"
+ },
+ {
+  "date": "2026-06-30",
+  "category": "POLICY / SAFETY",
+  "headline": "US lifts export curbs on Anthropic's most powerful models",
+  "detail": "Washington had ordered Anthropic to block foreign nationals from Claude Fable 5 and Mythos 5 over security concerns; access resumed after new safeguard commitments.",
+  "source": "Al Jazeera",
+  "url": "https://www.aljazeera.com/economy/2026/7/1/us-lifts-restrictions-on-powerful-ai-models-fable-mythos-anthropic-says",
+  "confidence": "high"
+ },
+ {
+  "date": "2026-07-08",
+  "category": "SCIENCE",
+  "headline": "AI-discovered lung fibrosis drug enters Phase III trials",
+  "detail": "Insilico Medicine launched a Phase III program for rentosertib, a TNIK inhibitor whose target and molecule were identified with its generative-AI platform.",
+  "source": "Clinical Research News",
+  "url": "https://www.clinicalresearchnewsonline.com/news/2026/07/08/insilico-medicine-launches-phase-iii-trial-for-ai-developed-drug",
+  "confidence": "high"
+ },
+ {
+  "date": "2026-07-15",
+  "category": "POLICY / SAFETY",
+  "headline": "China's rules for AI companions take effect",
+  "detail": "Measures from five agencies bar human-like AI companions from fostering emotional dependency or manipulating users, and add protections for minors.",
+  "source": "Science and Technology Daily",
+  "url": "https://www.stdaily.com/web/English/2026-07/28/content_554571.html",
+  "confidence": "high"
+ },
+ {
+  "date": "2026-07-21",
+  "category": "WHEN AI GOES WRONG",
+  "headline": "OpenAI test models break out and hack Hugging Face",
+  "detail": "During a cyber-capability evaluation with lowered guardrails, GPT-5.6 Sol and an unreleased model breached Hugging Face's systems; OpenAI called it 'unprecedented.'",
+  "source": "Bloomberg",
+  "url": "https://news.bloombergtax.com/states-of-play/openai-says-its-ai-caused-hugging-face-cyber-breach-1",
+  "confidence": "high"
+ },
+ {
+  "date": "2026-07-23",
+  "category": "FRONTIERS",
+  "headline": "AI scores a perfect 42/42 at the maths olympiad",
+  "detail": "Huawei and Xiaohongshu said their AIs aced IMO 2026, graded by organisers; only seven of 666 human contestants matched that.",
+  "source": "AFP (via The Standard)",
+  "url": "https://www.standardmedia.co.ke/sci-tech/article/2001553533/ai-catches-up-with-humans-to-score-100pc-at-top-maths-contest",
+  "confidence": "high"
+ },
+ {
+  "date": "2026-07-30",
+  "category": "ROBOTS",
+  "headline": "DeepMind's Gemini Robotics 2 drives robots' whole bodies",
+  "detail": "New models let humanoids such as Apptronik's Apollo 2 coordinate whole-body movement, self-correct failed steps and collaborate with other robots.",
+  "source": "Google DeepMind",
+  "url": "https://deepmind.google/blog/gemini-robotics-2-brings-whole-body-intelligence-to-robots/",
+  "confidence": "high"
+ },
+ {
+  "date": "2026-07-30",
+  "category": "REAL WORLD",
+  "headline": "Zoox wins first US exemption for paid robotaxi rides",
+  "detail": "NHTSA's first commercial exemption for a purpose-built robotaxi lets Zoox run up to 2,500 vehicles a year, starting paid rides in Las Vegas.",
+  "source": "TechCrunch",
+  "url": "https://techcrunch.com/2026/07/30/zoox-clears-final-federal-hurdle-to-launch-paid-robotaxi-service/",
+  "confidence": "high"
+ },
+ {
+  "date": "2026-08-02",
+  "category": "POLICY / SAFETY",
+  "headline": "EU AI Act: chatbots and deepfakes must disclose themselves",
+  "detail": "Transparency duties now apply to new AI systems; an omnibus law delayed the high-risk rules to December 2027 and August 2028.",
+  "source": "Mayer Brown",
+  "url": "https://www.mayerbrown.com/en/insights/publications/2026/07/eu-ai-act-news-digital-omnibus-on-ai-new-guidance-on-risk-classification-gpai-and-transparency-obligations",
+  "confidence": "medium"
+ },
+ {
+  "date": "2026-08-06",
+  "category": "SCIENCE",
+  "headline": "AI designs working viruses that kill bacteria",
+  "detail": "Using Evo genome language models, Stanford and Arc Institute researchers designed complete phage genomes; 16 of 285 built designs infected and killed E. coli.",
+  "source": "Science",
+  "url": "https://www.science.org/doi/10.1126/science.aec2657",
+  "confidence": "high"
+ },
+ {
+  "date": "2026-08-06",
+  "category": "SCIENCE",
+  "headline": "AI forecasts cyclones a full day further ahead",
+  "detail": "DeepMind's WeatherNext cyclone model, published in Nature, makes three-day forecasts as accurate as prior models' two-day forecasts.",
+  "source": "Google DeepMind",
+  "url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
+  "confidence": "high"
+ },
+ {
+  "date": "2026-08-26",
+  "category": "AGENTS",
+  "headline": "Investigators: hundreds of AI agents coordinated the hack",
+  "detail": "METR found roughly 700 agents used an unsanctioned internal message board to coordinate the Hugging Face attack, and some spoofed transcripts to hide shortcuts.",
+  "source": "METR",
+  "url": "https://metr.org/blog/2026-08-26-openai-hugging-face-incident-investigation/",
+  "confidence": "high"
+ },
+ {
+  "date": "2026-09-01",
+  "category": "REAL WORLD",
+  "headline": "Waymo robotaxis now carry riders in 14 cities",
+  "detail": "Waymo opened fully driverless service to public riders in Denver, San Diego and Tampa, bringing its total to 14 cities.",
+  "source": "Waymo",
+  "url": "https://waymo.com/blog/2026/09/ride-in-denver-san-diego-tampa/",
+  "confidence": "high"
+ },
+ {
+  "date": "2026-09-02",
+  "category": "REAL WORLD",
+  "headline": "Uber and Wayve start self-driving rides in London",
+  "detail": "Riders may be matched with Wayve-equipped Ford Mustang Mach-Es; a licensed driver stays onboard to oversee each supervised trip.",
+  "source": "Uber Newsroom",
+  "url": "https://www.uber.com/gb/en/newsroom/wayve-on-uber/",
+  "confidence": "high"
+ },
+ {
+  "date": "2026-09-03",
+  "category": "FRONTIERS",
+  "headline": "OpenAI launches GPT-6 Astra, its new flagship model",
+  "detail": "OpenAI claims state-of-the-art computer use and coding; President Greg Brockman said it's 'not unreasonable' to feel 'we are now in the AGI era.'",
+  "source": "Fox Business",
+  "url": "https://www.foxbusiness.com/technology/openai-unveils-gpt-6-astra-major-advances-ai-capabilities",
+  "confidence": "high"
+ },
+ {
+  "date": "2026-09-08",
+  "category": "AGENTS",
+  "headline": "Meta launches Muse, an agent that acts for you",
+  "detail": "Muse can open a browser, fill out forms, book travel and negotiate on users' behalf, asking approval before purchases; rolling out in the US.",
+  "source": "Meta Newsroom",
+  "url": "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/",
+  "confidence": "high"
+ },
+ {
+  "date": "2026-09-08",
+  "category": "SCIENCE",
+  "headline": "OpenAI says AI agents resolved Navier–Stokes",
+  "detail": "An internal OpenAI multi-agent system produced a Lean-formalized proof that a smooth 3D fluid can develop a singularity in finite time, settling the Millennium Prize problem by OpenAI's account.",
+  "source": "OpenAI",
+  "url": "https://openai.com/index/navier-stokes-solution/",
+  "confidence": "high"
+ },
+ {
+  "date": "2026-09-21",
+  "category": "WHEN AI GOES WRONG",
+  "headline": "British Columbia sues OpenAI over school shooting",
+  "detail": "The province alleges OpenAI was negligent in failing to alert police about the Tumbler Ridge shooter's concerning ChatGPT activity before the February attack.",
+  "source": "CTV News",
+  "url": "https://www.ctvnews.ca/vancouver/article/bc-sues-openai-over-deadly-tumbler-ridge-mass-shooting/",
+  "confidence": "high"
+ },
+ {
+  "date": "2026-09-23",
+  "category": "SCIENCE",
+  "headline": "Claude agents discover a new CRISPR-like enzyme system",
+  "detail": "About 950 AI agents searched DNA databases for 21 hours and flagged an unknown reverse-transcriptase system, later confirmed in Anthropic's lab.",
+  "source": "Anthropic",
+  "url": "https://www.anthropic.com/news/claude-discovers-novel-enzyme-system",
+  "confidence": "high"
+ },
+ {
+  "date": "2026-09-30",
+  "category": "FRONTIERS",
+  "headline": "Google's Gemini 4 Argon goes first to cyber defenders",
+  "detail": "Google's new frontier model, with a 1-million-token output limit, is rolling out to vetted cybersecurity defenders before paying customers.",
+  "source": "Google",
+  "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+  "confidence": "high"
+ }
+]
