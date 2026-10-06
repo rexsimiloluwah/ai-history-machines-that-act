@@ -532,6 +532,8 @@
   }, { passive: true });
 
   document.addEventListener('visibilitychange', () => { if (document.hidden && playing) pause(); });
+  // Any tap or key while the film plays re-wakes the sound if the phone interrupted it
+  ['touchend', 'click', 'keydown'].forEach(ev => document.addEventListener(ev, () => { if (started && playing) Score.wake(); }, { passive: true }));
   window.addEventListener('resize', () => { if (live.fx && live.fx.resize) live.fx.resize(); });
 
   /* ---------------- Transcript / index ---------------- */

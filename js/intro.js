@@ -285,6 +285,11 @@ const Intro = (() => {
     return null;
   }
 
+  // Phones and tablets: say "tap", not "click or press any key"
+  if (matchMedia('(pointer: coarse)').matches) {
+    const hint = document.querySelector('.gate-hint');
+    if (hint) hint.textContent = 'Sound on. Tap to power on.';
+  }
   el.gate.addEventListener('click', powerOn);
   el.skip.addEventListener('click', () => showEnd());
   root.addEventListener('click', (e) => { if (state === 'gate' && !e.target.closest('button')) powerOn(); });

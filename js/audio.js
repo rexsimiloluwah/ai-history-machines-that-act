@@ -44,11 +44,39 @@ const Score = (() => {
     E: [56, 59, 64, 68, 64, 59], D: [62, 66, 69, 74, 69, 66],
   };
 
+  /* Phones. On iPhone, Web Audio counts as "ambient" sound and the silent switch mutes it.
+     Declaring media playback makes it play like a video does. Newer iOS has an API for that;
+     on older iOS, a silent looping <audio> element started from the tap does the same job. */
+  let silentEl = null;
+  function silentWav() {
+    const n = 4000, buf = new ArrayBuffer(44 + n * 2), v = new DataView(buf);
+    const w = (o, str) => [...str].forEach((c, i) => v.setUint8(o + i, c.charCodeAt(0)));
+    w(0, 'RIFF'); v.setUint32(4, 36 + n * 2, true); w(8, 'WAVE'); w(12, 'fmt ');
+    v.setUint32(16, 16, true); v.setUint16(20, 1, true); v.setUint16(22, 1, true);
+    v.setUint32(24, 8000, true); v.setUint32(28, 16000, true); v.setUint16(32, 2, true); v.setUint16(34, 16, true);
+    w(36, 'data'); v.setUint32(40, n * 2, true);
+    return URL.createObjectURL(new Blob([buf], { type: 'audio/wav' }));
+  }
+  function unlock() {
+    try { if (navigator.audioSession) navigator.audioSession.type = 'playback'; } catch (e) {}
+    try {
+      if (!silentEl) {
+        silentEl = document.createElement('audio');
+        silentEl.setAttribute('playsinline', ''); silentEl.setAttribute('x-webkit-airplay', 'deny');
+        silentEl.loop = true; silentEl.preload = 'auto'; silentEl.src = silentWav();
+      }
+      const p = silentEl.play(); if (p) p.catch(() => {});
+    } catch (e) {}
+    if (ctx && ctx.state !== 'running' && ctx.state !== 'closed') ctx.resume().catch(() => {});
+  }
+
   function init() {
-    if (ctx) { ctx.resume(); return; }
+    unlock();
+    if (ctx) { ctx.resume().catch(() => {}); return; }
     const AC = window.AudioContext || window.webkitAudioContext;
     if (!AC) return;
     ctx = new AC();
+    ctx.resume().catch(() => {});             // some phones create it suspended even inside a tap
 
     master = ctx.createGain();
     master.gain.value = muted ? 0 : 0.85;
@@ -560,7 +588,9 @@ const Score = (() => {
        chime: () => chime(t, args[0]), popcorn: () => popcorn(args[0] ?? 1.4, t), hum: () => hum(args[0] ?? 1.2, t), ding: () => ding(t) })[name]?.();
   }
   function pause() { if (ctx && ctx.state === 'running') ctx.suspend(); }
-  function resume() { if (ctx && ctx.state === 'suspended') ctx.resume(); }
+  function resume() { if (ctx && ctx.state !== 'running' && ctx.state !== 'closed') ctx.resume().catch(() => {}); }
+  // iOS can "interrupt" audio (a call, switching apps). A tap while the film plays wakes it again.
+  function wake() { if (ctx) { unlock(); } }
   function setMuted(m) {
     muted = m;
     if (master) master.gain.setTargetAtTime(m ? 0 : 0.85, ctx.currentTime, 0.08);
@@ -575,7 +605,8 @@ const Score = (() => {
   }
 
   return {
-    init, cue, stopAll, pause, resume, setMuted, type, tap, key, tickAt, at, idle, stream,
+    init, cue, stopAll, pause, resume, wake, setMuted, type, tap, key, tickAt, at, idle, stream,
+    get state() { return ctx ? ctx.state : 'none'; },
     get muted() { return muted; },
     get ready() { return ready; },
   };
