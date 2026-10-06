@@ -57,10 +57,13 @@ js/data.js            GENERATED: merged media manifests (do not edit)
 assets/img, video     archival media (public domain / Creative Commons)
 assets/data/*.json    media manifests with author + license, the 2026 wall, overrides
 tools/build-data.mjs  rebuilds js/data.js after any manifest change
+tools/make-webp.py    writes the WebP versions of every photograph
 SHOTLIST.md           prompts + workflow for optional AI-generated b-roll (Higgsfield / Seedance)
 ```
 
 **To edit the film,** change `js/scenes.js`. Each scene is a small object with its year, duration, images, words and music cue. **After changing any manifest,** run `node tools/build-data.mjs`.
+
+**After adding or replacing photographs,** run `python3 tools/make-webp.py` and then `node tools/build-data.mjs`. That writes the web versions the site serves: full size for large screens, 1280 px for phones, and thumbnails for the mosaic. The film preloads in viewing order and never shows a scene before its images have loaded.
 
 ## Honesty
 
