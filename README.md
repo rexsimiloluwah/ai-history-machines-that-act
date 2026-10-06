@@ -1,8 +1,11 @@
 # From Silicon to Machines That ~~Think~~ Act
 
-*A journey through the history, breakthroughs and future of artificial intelligence.* A cinematic web film, 1936 to 2026, built from real archival photographs and footage. It opens with a 30-second trailer and runs about 12 minutes, plus credits.
+*A journey through the history, breakthroughs and future of artificial intelligence.* A cinematic web film, 1936 to 2026, built from real archival photographs and footage. It opens with a 35-second cold open and runs about 12 minutes, plus credits.
 
 Created by Simi Okunowo, and a beloved machine, Claude Opus 5.5.
+
+**Watch the film:** https://rexsimiloluwah.github.io/ai-history-thinking-machines/  
+**Trailer:** [16:9](https://rexsimiloluwah.github.io/ai-history-thinking-machines/promo/trailer-16x9.mp4) · [4:5 for LinkedIn](https://rexsimiloluwah.github.io/ai-history-thinking-machines/promo/trailer-linkedin-4x5.mp4)
 
 ## Watch it
 
