@@ -27,6 +27,7 @@
   });
 
   let cur = -1, t = 0, playing = false, started = false, last = performance.now();
+  let holding = false, seq = 0;
   let live = { fx: null, fxEl: null, beats: [], cards: [] };
   const params = new URLSearchParams(location.search);
 
@@ -117,16 +118,78 @@
       back.appendChild(wrap);
       back.querySelectorAll('video').forEach(v => { if (playing) v.play().catch(() => {}); });
     }
-    const cut = mode === 'cut' || mode === 'black' || reduced && mode !== 'fade';
-    back.classList.toggle('cut', cut);
-    fore.classList.toggle('cut', cut);
-    back.classList.add('on');
-    fore.classList.remove('on');
-    front = 1 - front;
-    const old = fore;
-    setTimeout(() => {
-      if (!old.classList.contains('on')) { old.querySelectorAll('video').forEach(v => v.pause()); old.innerHTML = ''; }
-    }, cut ? 50 : 1700);
+    const media = [...back.querySelectorAll('img, video')];
+    const reveal = () => {
+      const cut = mode === 'cut' || mode === 'black' || reduced && mode !== 'fade';
+      back.classList.toggle('cut', cut);
+      fore.classList.toggle('cut', cut);
+      back.classList.add('on');
+      fore.classList.remove('on');
+      front = 1 - front;
+      const old = fore;
+      setTimeout(() => {
+        if (!old.classList.contains('on')) { old.querySelectorAll('video').forEach(v => v.pause()); old.innerHTML = ''; }
+      }, cut ? 50 : 1700);
+    };
+    return { reveal, media };
+  }
+
+  /* ---------------- Loading: fetch the whole film in order, never cut to an empty frame ---------------- */
+  const loads = new Map(), keepAlive = [];
+  function load(url) {
+    if (!url) return Promise.resolve();
+    if (loads.has(url)) return loads.get(url);
+    const p = new Promise(res => {
+      const im = new Image(); im.decoding = 'async';
+      im.onload = () => (im.decode ? im.decode() : Promise.resolve()).catch(() => {}).then(res);
+      im.onerror = () => res();
+      im.src = url; keepAlive.push(im);
+    });
+    loads.set(url, p);
+    return p;
+  }
+  const settle = (el) => el.tagName === 'VIDEO'
+    ? new Promise(res => { if (el.readyState >= 2) return res(); el.addEventListener('loadeddata', res, { once: true }); el.addEventListener('error', res, { once: true }); })
+    : (el.decode ? el.decode().catch(() => {}) : Promise.resolve());
+  const wait = (ms) => new Promise(r => setTimeout(r, ms));
+  function rewindPool() {
+    const all = imagePool().slice().reverse(), n = Math.min(16, all.length);
+    return Array.from({ length: n }, (_, k) => all[Math.floor(k * all.length / n)]);
+  }
+  // Every image a scene shows: its backdrop and anything its special shot draws
+  function sceneUrls(s) {
+    const u = [], o = s.fxOpts || {}, m = resolveBg(s);
+    if (m) u.push(m.kind === 'video' ? m.poster : m.file);
+    (o.images || []).forEach(id => MEDIA[id] && u.push(MEDIA[id].file));
+    if (o.image && MEDIA[o.image]) u.push(MEDIA[o.image].file);
+    (o.people || []).forEach(p => MEDIA[p.id] && u.push(MEDIA[p.id].file));
+    (o.items || []).forEach(it => it.id && MEDIA[it.id] && u.push(MEDIA[it.id].file));
+    if (s.fx === 'rewind') rewindPool().forEach(x => u.push(x.thumb || x.file));
+    if (s.fx === 'mosaic') imagePool().forEach(x => u.push(x.thumb || x.file));
+    return [...new Set(u.filter(Boolean))];
+  }
+  // The background queue: the opening's images first, then the film in order, then everything else
+  const ORDER = (() => {
+    const u = [];
+    ['chess-board', 'protein-1', 'valkyrie', 'server-racks', 'maniac-chess'].forEach(id => MEDIA[id] && u.push(MEDIA[id].file));
+    ['v-chess', 'v-protein', 'v-robot-modern'].forEach(id => MEDIA[id] && MEDIA[id].poster && u.push(MEDIA[id].poster));
+    scenes.forEach(sc => u.push(...sceneUrls(sc)));
+    DATA.images.forEach(m => u.push(m.file));
+    return [...new Set(u)];
+  })();
+  let qi = 0, active = 0, done = 0;
+  function pump() {
+    while (active < 4 && qi < ORDER.length && !holding) {   // a waiting scene gets the bandwidth
+      const url = ORDER[qi++]; active++;
+      load(url).then(() => { active--; done++; loadProgress(); pump(); });
+    }
+  }
+  function loadProgress() {
+    const pct = Math.round(done / ORDER.length * 100);
+    const bar = document.querySelector('.load-line i'), txt = document.querySelector('.load-txt');
+    if (bar) bar.style.width = pct + '%';
+    if (txt) txt.textContent = pct >= 100 ? 'Ready' : `Preparing the film · ${pct}%`;
+    if (pct >= 100) document.querySelector('.load-wrap')?.classList.add('done');
   }
 
   /* ---------------- Text cards ---------------- */
@@ -215,6 +278,22 @@
     film.classList.remove('crt-off');
     cur = i; t = 0;
 
+    // Prepare the incoming shot off-screen and hold the clock until its images are decoded
+    const shot = setShot(s, jump ? 'cut' : (s.trans || 'fade'));
+    const token = ++seq;
+    holding = true;
+    const slow = setTimeout(() => { if (token === seq && holding) $('#loading').hidden = false; }, 500);
+    Promise.race([Promise.all([...shot.media.map(settle), ...sceneUrls(s).map(load)]), wait(10000)]).then(() => {
+      clearTimeout(slow);
+      if (token !== seq) return;
+      $('#loading').hidden = true;
+      holding = false;
+      pump();
+      enter(s, i, jump, kept, shot);
+    });
+  }
+
+  function enter(s, i, jump, kept, shot) {
     const curtain = $('#curtain');
     if (s.trans === 'black' && !jump) {
       curtain.classList.add('down', 'snap');
@@ -225,7 +304,7 @@
     }
 
     applyLook(s);
-    setShot(s, jump ? 'cut' : (s.trans || 'fade'));
+    shot.reveal();
 
     live.beats = sceneBeats(s);
     live.sfx = {};
@@ -260,19 +339,9 @@
     $('#sr').textContent = sceneText(s);
 
     document.querySelectorAll('.ix-row').forEach(r => r.classList.toggle('current', +r.dataset.i === i));
-    preload(i);
+    // Jump the queue: the next few scenes load now, whatever the background loader is doing
+    for (let k = 1; k <= 4; k++) { const n = scenes[i + k]; if (n) sceneUrls(n).forEach(load); }
     if (params.has('debug')) console.log('scene', i, s.id);
-  }
-
-  function preload(i) {
-    for (let k = 1; k <= 3; k++) {
-      const s = scenes[i + k]; if (!s) break;
-      const m = resolveBg(s);
-      if (m && m.kind === 'img') { const im = new Image(); im.src = m.file; }
-      if (m && m.kind === 'video' && m.poster) { const im = new Image(); im.src = m.poster; }
-      (s.fxOpts?.images || []).forEach(id => { if (MEDIA[id]) { const im = new Image(); im.src = MEDIA[id].file; } });
-      if (s.fxOpts?.image && MEDIA[s.fxOpts.image]) { const im = new Image(); im.src = MEDIA[s.fxOpts.image].file; }
-    }
   }
 
   function updateBeats() {
@@ -300,7 +369,7 @@
   /* ---------------- Main loop ---------------- */
   function loop(now) {
     const dt = Math.min(80, now - last); last = now;
-    if (playing && cur >= 0) {
+    if (playing && cur >= 0 && !holding) {
       t += dt;
       const s = scenes[cur];
       updateBeats();
@@ -560,6 +629,8 @@
   })();
 
   buildIndex();
+  // Start the background loader once the page itself has loaded, so it never delays the page
+  if (document.readyState === 'complete') pump(); else window.addEventListener('load', pump, { once: true });
   paintProgress();
   odo.classList.add('blank');
   requestAnimationFrame(loop);
@@ -572,5 +643,6 @@
     go(Math.max(0, i), { jump: true }); play();
     if (params.has('at')) t = +params.get('at');
   }
-  window.FILM = { go: jumpTo, scenes, play, pause, get t() { return t; }, get cur() { return cur; } };
+  window.FILM = { go: jumpTo, scenes, play, pause, get t() { return t; }, get cur() { return cur; },
+    debug: () => ({ holding, seq, cur, t, total: ORDER.length, done, qi, active }) };
 })();

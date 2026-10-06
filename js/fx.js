@@ -117,7 +117,7 @@ const FX = (() => {
     const pool = Array.from({ length: n }, (_, k) => all[Math.floor(k * all.length / n)]);
     const layer = h('div', 'rw-layer');
     const imgs = pool.map(m => {
-      const i = h('img'); i.src = m.file; i.alt = ''; layer.appendChild(i); return i;
+      const i = h('img'); i.src = m.thumb || m.file; i.alt = ''; layer.appendChild(i); return i;
     });
     const num = h('div', 'rw-num', '2026');
     const lines = h('div', 'rw-lines');
@@ -337,7 +337,7 @@ const FX = (() => {
     for (let i = 0; i < cols * rows; i++) {
       const tile = h('div', 'tile');
       const img = h('img'); img.alt = ''; img.loading = 'eager';
-      if (pool.length) img.src = pool[(i * 7) % pool.length].file;
+      if (pool.length) img.src = pool[(i * 7) % pool.length].thumb || pool[(i * 7) % pool.length].file;
       tile.appendChild(img); grid.appendChild(tile);
       tiles.push({ tile, img, at: 200 + Math.random() * 3800, next: 0 });
     }
@@ -351,7 +351,7 @@ const FX = (() => {
         tiles.forEach((s, i) => {
           if (t > s.at && !s.on) { s.on = true; s.tile.classList.add('on'); s.next = t + 600 + Math.random() * 1400; }
           if (s.on && t > s.next && pool.length && !api.reduced) {
-            s.img.src = pool[Math.floor(Math.random() * pool.length)].file;
+            { const m = pool[Math.floor(Math.random() * pool.length)]; s.img.src = m.thumb || m.file; }
             s.next = t + 900 + Math.random() * 1800;
           }
         });

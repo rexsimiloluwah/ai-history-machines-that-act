@@ -76,6 +76,7 @@
   transition: opacity .18s linear;
 }
 .rw-layer img.on { opacity: .28; animation: kb-rev .5s linear both; }
+.rw-layer img { filter: grayscale(1) brightness(.5) contrast(1.2) blur(1.5px); }
 .rw-layer::after {
   content: ""; position: absolute; inset: 0;
   background: linear-gradient(180deg, rgba(60,110,220,.22), rgba(20,40,90,.35));

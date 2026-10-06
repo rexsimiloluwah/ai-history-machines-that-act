@@ -3,7 +3,7 @@ window.FILM_DATA = {
  "images": [
   {
    "id": "turing",
-   "file": "assets/img/turing.jpg",
+   "file": "assets/img/turing.webp",
    "w": 864,
    "h": 1194,
    "title": "Alan Turing, aged 16 (c. 1928)",
@@ -13,11 +13,14 @@ window.FILM_DATA = {
    "source": "https://commons.wikimedia.org/wiki/File:Alan_Turing_at_age_16.jpg",
    "focus": "50% 28%",
    "note": "Grayscale portrait, portrait orientation; modest resolution (864px wide)",
-   "print": "paper"
+   "print": "paper",
+   "original": "assets/img/turing.jpg",
+   "sm": "assets/img/turing-sm.webp",
+   "thumb": "assets/img/turing-th.webp"
   },
   {
    "id": "turing-paper",
-   "file": "assets/img/turing-paper.jpg",
+   "file": "assets/img/turing-paper.webp",
    "w": 1920,
    "h": 1907,
    "title": "Alan Turing's ACE report: 'Proposals for Development in the Mathematics Division of an Automatic Computing Engine' (NPL, 1945/46)",
@@ -27,11 +30,14 @@ window.FILM_DATA = {
    "source": "https://commons.wikimedia.org/wiki/File:Alan_Turing_-_Proposed_Electronic_Calculator_(1945).pdf",
    "focus": "50% 45%",
    "note": "Title page of Turing's typed report, rendered from PDF page 1 and cropped; black text on white. No PD scan of the 1936/1950 papers exists on Commons, so this is Turing's own 1945 computer design report",
-   "noPool": true
+   "noPool": true,
+   "original": "assets/img/turing-paper.jpg",
+   "sm": "assets/img/turing-paper-sm.webp",
+   "thumb": "assets/img/turing-paper-th.webp"
   },
   {
    "id": "bletchley",
-   "file": "assets/img/bletchley.jpg",
+   "file": "assets/img/bletchley.webp",
    "w": 2000,
    "h": 1178,
    "title": "Bletchley Park Mansion, wartime HQ of Britain's codebreakers",
@@ -40,11 +46,14 @@ window.FILM_DATA = {
    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
    "source": "https://commons.wikimedia.org/wiki/File:Bletchley_Park_Mansion.jpg",
    "focus": "50% 55%",
-   "note": "Color, daytime, blue sky"
+   "note": "Color, daytime, blue sky",
+   "original": "assets/img/bletchley.jpg",
+   "sm": "assets/img/bletchley-sm.webp",
+   "thumb": "assets/img/bletchley-th.webp"
   },
   {
    "id": "colossus",
-   "file": "assets/img/colossus.jpg",
+   "file": "assets/img/colossus.webp",
    "w": 2000,
    "h": 1334,
    "title": "Colossus Mark 2 codebreaking computer, operated by Dorothy Du Boisson and Elsie Booker, 1943",
@@ -53,11 +62,14 @@ window.FILM_DATA = {
    "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
    "source": "https://commons.wikimedia.org/wiki/File:Colossus.jpg",
    "focus": "50% 40%",
-   "note": "Wartime grayscale photo"
+   "note": "Wartime grayscale photo",
+   "original": "assets/img/colossus.jpg",
+   "sm": "assets/img/colossus-sm.webp",
+   "thumb": "assets/img/colossus-th.webp"
   },
   {
    "id": "bombe",
-   "file": "assets/img/bombe.jpg",
+   "file": "assets/img/bombe.webp",
    "w": 2000,
    "h": 1479,
    "title": "Drums of the rebuilt Turing–Welchman Bombe, Hut 11a, Bletchley Park",
@@ -66,11 +78,14 @@ window.FILM_DATA = {
    "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
    "source": "https://commons.wikimedia.org/wiki/File:Bletchley_Park,_Hut_11a,_detail_of_the_recreated_Bombe_in_the_hut_it_was_originally_housed_in_-_geograph.org.uk_-_7896286.jpg",
    "focus": "50% 50%",
-   "note": "Dark, close-up of rotating drums"
+   "note": "Dark, close-up of rotating drums",
+   "original": "assets/img/bombe.jpg",
+   "sm": "assets/img/bombe-sm.webp",
+   "thumb": "assets/img/bombe-th.webp"
   },
   {
    "id": "eniac",
-   "file": "assets/img/eniac.jpg",
+   "file": "assets/img/eniac.webp",
    "w": 2000,
    "h": 1446,
    "title": "ENIAC at the Moore School, Philadelphia: Cpl. Irwin Goldstein sets a function table (1946)",
@@ -79,11 +94,14 @@ window.FILM_DATA = {
    "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
    "source": "https://commons.wikimedia.org/wiki/File:Classic_shot_of_the_ENIAC_(full_resolution).jpg",
    "focus": "45% 50%",
-   "note": "Classic wide grayscale shot"
+   "note": "Classic wide grayscale shot",
+   "original": "assets/img/eniac.jpg",
+   "sm": "assets/img/eniac-sm.webp",
+   "thumb": "assets/img/eniac-th.webp"
   },
   {
    "id": "eniac-programmers",
-   "file": "assets/img/eniac-programmers.jpg",
+   "file": "assets/img/eniac-programmers.webp",
    "w": 2000,
    "h": 1372,
    "title": "ENIAC programmers Betty Jennings (left) and Frances Bilas (right) at the main control panel, 1946",
@@ -92,11 +110,14 @@ window.FILM_DATA = {
    "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
    "source": "https://commons.wikimedia.org/wiki/File:Two_women_operating_ENIAC_(full_resolution).jpg",
    "focus": "45% 45%",
-   "note": "Grayscale"
+   "note": "Grayscale",
+   "original": "assets/img/eniac-programmers.jpg",
+   "sm": "assets/img/eniac-programmers-sm.webp",
+   "thumb": "assets/img/eniac-programmers-th.webp"
   },
   {
    "id": "vacuum-tubes",
-   "file": "assets/img/vacuum-tubes.jpg",
+   "file": "assets/img/vacuum-tubes.webp",
    "w": 2000,
    "h": 1117,
    "title": "Glowing 6N3C power vacuum tubes",
@@ -105,11 +126,14 @@ window.FILM_DATA = {
    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
    "source": "https://commons.wikimedia.org/wiki/File:Glowing_Beauties.jpg",
    "focus": "50% 45%",
-   "note": "Dark macro with blue/orange glow; photographer's black border and caption text cropped off (credit retained here)"
+   "note": "Dark macro with blue/orange glow; photographer's black border and caption text cropped off (credit retained here)",
+   "original": "assets/img/vacuum-tubes.jpg",
+   "sm": "assets/img/vacuum-tubes-sm.webp",
+   "thumb": "assets/img/vacuum-tubes-th.webp"
   },
   {
    "id": "dartmouth",
-   "file": "assets/img/dartmouth.jpg",
+   "file": "assets/img/dartmouth.webp",
    "w": 2000,
    "h": 1333,
    "title": "Dartmouth Hall, Dartmouth College, Hanover, New Hampshire",
@@ -118,11 +142,14 @@ window.FILM_DATA = {
    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
    "source": "https://commons.wikimedia.org/wiki/File:Dartmouth_Hall_-_Dartmouth_College_-_DSC01608.jpg",
    "focus": "50% 60%",
-   "note": "Modern color photo (2015) of the hall where the 1956 workshop met; blue sky with bare branches"
+   "note": "Modern color photo (2015) of the hall where the 1956 workshop met; blue sky with bare branches",
+   "original": "assets/img/dartmouth.jpg",
+   "sm": "assets/img/dartmouth-sm.webp",
+   "thumb": "assets/img/dartmouth-th.webp"
   },
   {
    "id": "mccarthy",
-   "file": "assets/img/mccarthy.jpg",
+   "file": "assets/img/mccarthy.webp",
    "w": 1726,
    "h": 2000,
    "title": "John McCarthy at Stanford, 2006",
@@ -131,11 +158,14 @@ window.FILM_DATA = {
    "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
    "source": "https://commons.wikimedia.org/wiki/File:John_McCarthy_Stanford.jpg",
    "focus": "58% 40%",
-   "note": "Color close portrait"
+   "note": "Color close portrait",
+   "original": "assets/img/mccarthy.jpg",
+   "sm": "assets/img/mccarthy-sm.webp",
+   "thumb": "assets/img/mccarthy-th.webp"
   },
   {
    "id": "minsky",
-   "file": "assets/img/minsky.jpg",
+   "file": "assets/img/minsky.webp",
    "w": 2000,
    "h": 1333,
    "title": "Marvin Minsky, 2012",
@@ -144,11 +174,14 @@ window.FILM_DATA = {
    "license_url": "https://creativecommons.org/licenses/by/2.0/",
    "source": "https://commons.wikimedia.org/wiki/File:Marvin_Minsky_(1).jpg",
    "focus": "62% 40%",
-   "note": "Color, soft warm background, subject on right"
+   "note": "Color, soft warm background, subject on right",
+   "original": "assets/img/minsky.jpg",
+   "sm": "assets/img/minsky-sm.webp",
+   "thumb": "assets/img/minsky-th.webp"
   },
   {
    "id": "shannon",
-   "file": "assets/img/shannon.jpg",
+   "file": "assets/img/shannon.webp",
    "w": 1600,
    "h": 2000,
    "title": "Claude Elwood Shannon",
@@ -157,11 +190,14 @@ window.FILM_DATA = {
    "license_url": "https://creativecommons.org/licenses/by/2.0/",
    "source": "https://commons.wikimedia.org/wiki/File:C.E._Shannon._Tekniska_museet_43069.jpg",
    "focus": "50% 30%",
-   "note": "Grayscale studio portrait, portrait orientation"
+   "note": "Grayscale studio portrait, portrait orientation",
+   "original": "assets/img/shannon.jpg",
+   "sm": "assets/img/shannon-sm.webp",
+   "thumb": "assets/img/shannon-th.webp"
   },
   {
    "id": "maniac",
-   "file": "assets/img/maniac.jpg",
+   "file": "assets/img/maniac.webp",
    "w": 2000,
    "h": 1580,
    "title": "Operators in front of the MANIAC I computer, Los Alamos, 1952",
@@ -170,11 +206,14 @@ window.FILM_DATA = {
    "license_url": "https://commons.wikimedia.org/wiki/Template:PD-LosAlamos",
    "source": "https://commons.wikimedia.org/wiki/File:Operators_in_front_of_the_MANIAC.jpg",
    "focus": "45% 50%",
-   "note": "Vintage color photo"
+   "note": "Vintage color photo",
+   "original": "assets/img/maniac.jpg",
+   "sm": "assets/img/maniac-sm.webp",
+   "thumb": "assets/img/maniac-th.webp"
   },
   {
    "id": "ibm-704",
-   "file": "assets/img/ibm-704.jpg",
+   "file": "assets/img/ibm-704.webp",
    "w": 2000,
    "h": 1585,
    "title": "Man and woman operating an IBM 704 data processing machine, NACA Langley, 1957",
@@ -183,11 +222,14 @@ window.FILM_DATA = {
    "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
    "source": "https://commons.wikimedia.org/wiki/File:IBM_Electronic_Data_Processing_Machine_-_GPN-2000-001881.jpg",
    "focus": "45% 45%",
-   "note": "Grayscale"
+   "note": "Grayscale",
+   "original": "assets/img/ibm-704.jpg",
+   "sm": "assets/img/ibm-704-sm.webp",
+   "thumb": "assets/img/ibm-704-th.webp"
   },
   {
    "id": "perceptron",
-   "file": "assets/img/perceptron.jpg",
+   "file": "assets/img/perceptron.webp",
    "w": 2000,
    "h": 1566,
    "title": "The Mark I Perceptron, Frank Rosenblatt's pattern-recognition machine at Cornell Aeronautical Laboratory (U.S. Navy photo released 1960)",
@@ -196,11 +238,14 @@ window.FILM_DATA = {
    "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
    "source": "https://commons.wikimedia.org/wiki/File:330-PSA-80-60_(USN_710739)_(20897323365).jpg",
    "focus": "45% 35%",
-   "note": "Sepia/grayscale; operator adjusting the photocell 'eye' in front of a letter C"
+   "note": "Sepia/grayscale; operator adjusting the photocell 'eye' in front of a letter C",
+   "original": "assets/img/perceptron.jpg",
+   "sm": "assets/img/perceptron-sm.webp",
+   "thumb": "assets/img/perceptron-th.webp"
   },
   {
    "id": "eliza",
-   "file": "assets/img/eliza.jpg",
+   "file": "assets/img/eliza.webp",
    "w": 751,
    "h": 487,
    "title": "A conversation with the ELIZA chatbot (terminal screenshot)",
@@ -211,11 +256,14 @@ window.FILM_DATA = {
    "focus": "50% 50%",
    "note": "Small screenshot (751x487); light text on dark gray, best shown at modest size or recreated as live text",
    "print": "plain",
-   "noPool": true
+   "noPool": true,
+   "original": "assets/img/eliza.jpg",
+   "sm": "assets/img/eliza-sm.webp",
+   "thumb": "assets/img/eliza-th.webp"
   },
   {
    "id": "weizenbaum",
-   "file": "assets/img/weizenbaum.jpg",
+   "file": "assets/img/weizenbaum.webp",
    "w": 692,
    "h": 1017,
    "title": "Joseph Weizenbaum, creator of ELIZA, 1982",
@@ -226,11 +274,14 @@ window.FILM_DATA = {
    "focus": "55% 25%",
    "note": "Grayscale newsletter photo, portrait orientation; low resolution (692px wide)",
    "print": "paper",
-   "noPool": true
+   "noPool": true,
+   "original": "assets/img/weizenbaum.jpg",
+   "sm": "assets/img/weizenbaum-sm.webp",
+   "thumb": "assets/img/weizenbaum-th.webp"
   },
   {
    "id": "teletype",
-   "file": "assets/img/teletype.jpg",
+   "file": "assets/img/teletype.webp",
    "w": 2000,
    "h": 1333,
    "title": "Teletype Model 33 ASR terminal with paper-tape punch",
@@ -239,11 +290,14 @@ window.FILM_DATA = {
    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
    "source": "https://commons.wikimedia.org/wiki/File:Teletype_Model_33_-_48930224272.jpg",
    "focus": "45% 45%",
-   "note": "Color close-up of keyboard and Teletype logo"
+   "note": "Color close-up of keyboard and Teletype logo",
+   "original": "assets/img/teletype.jpg",
+   "sm": "assets/img/teletype-sm.webp",
+   "thumb": "assets/img/teletype-th.webp"
   },
   {
    "id": "lisp-machine",
-   "file": "assets/img/lisp-machine.jpg",
+   "file": "assets/img/lisp-machine.webp",
    "w": 1333,
    "h": 2000,
    "title": "CADR, the MIT Lisp Machine (late 1970s), MIT Museum",
@@ -252,11 +306,14 @@ window.FILM_DATA = {
    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
    "source": "https://commons.wikimedia.org/wiki/File:CADR_-_The_Lisp_Machine,_late_1970s,_view_1_-_MIT_Museum_-_DSC03747.JPG",
    "focus": "55% 50%",
-   "note": "Portrait orientation; tall rack of circuit boards behind glass"
+   "note": "Portrait orientation; tall rack of circuit boards behind glass",
+   "original": "assets/img/lisp-machine.jpg",
+   "sm": "assets/img/lisp-machine-sm.webp",
+   "thumb": "assets/img/lisp-machine-th.webp"
   },
   {
    "id": "mainframe-room",
-   "file": "assets/img/mainframe-room.jpg",
+   "file": "assets/img/mainframe-room.webp",
    "w": 2000,
    "h": 1596,
    "title": "IBM 7090 data processing room with tape drives, NASA Ames Research Center, 1963",
@@ -265,11 +322,14 @@ window.FILM_DATA = {
    "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
    "source": "https://commons.wikimedia.org/wiki/File:Data_Processing_System_at_Ames_Research_Center_(A-31180).jpg",
    "focus": "55% 50%",
-   "note": "Wide grayscale shot"
+   "note": "Wide grayscale shot",
+   "original": "assets/img/mainframe-room.jpg",
+   "sm": "assets/img/mainframe-room-sm.webp",
+   "thumb": "assets/img/mainframe-room-th.webp"
   },
   {
    "id": "punch-cards",
-   "file": "assets/img/punch-cards.jpg",
+   "file": "assets/img/punch-cards.webp",
    "w": 2000,
    "h": 1579,
    "title": "Storage of IBM punch cards at the Federal Records Center, Alexandria, Virginia, 1959",
@@ -278,11 +338,14 @@ window.FILM_DATA = {
    "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
    "source": "https://commons.wikimedia.org/wiki/File:IBM_card_storage.NARA.jpg",
    "focus": "50% 50%",
-   "note": "Grayscale; endless rows of card boxes; tiny dust spot top-right"
+   "note": "Grayscale; endless rows of card boxes; tiny dust spot top-right",
+   "original": "assets/img/punch-cards.jpg",
+   "sm": "assets/img/punch-cards-sm.webp",
+   "thumb": "assets/img/punch-cards-th.webp"
   },
   {
    "id": "hinton",
-   "file": "assets/img/hinton.jpg",
+   "file": "assets/img/hinton.webp",
    "w": 2000,
    "h": 1333,
    "title": "Geoffrey Hinton at the 2024 Nobel Prize press conference, Royal Swedish Academy of Sciences",
@@ -291,11 +354,14 @@ window.FILM_DATA = {
    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
    "source": "https://commons.wikimedia.org/wiki/File:Geoffrey_Hinton_at_2024_Nobel_Prize_Conference_2.jpg",
    "focus": "46% 35%",
-   "note": "Color; subject right of center"
+   "note": "Color; subject right of center",
+   "original": "assets/img/hinton.jpg",
+   "sm": "assets/img/hinton-sm.webp",
+   "thumb": "assets/img/hinton-th.webp"
   },
   {
    "id": "lecun",
-   "file": "assets/img/lecun.jpg",
+   "file": "assets/img/lecun.webp",
    "w": 2000,
    "h": 1333,
    "title": "Yann LeCun speaking at École polytechnique, 2018",
@@ -304,11 +370,14 @@ window.FILM_DATA = {
    "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
    "source": "https://commons.wikimedia.org/wiki/File:Yann_LeCun_(29146901108).jpg",
    "focus": "25% 25%",
-   "note": "Color; stage lighting with blue curtains; subject left"
+   "note": "Color; stage lighting with blue curtains; subject left",
+   "original": "assets/img/lecun.jpg",
+   "sm": "assets/img/lecun-sm.webp",
+   "thumb": "assets/img/lecun-th.webp"
   },
   {
    "id": "mnist",
-   "file": "assets/img/mnist.jpg",
+   "file": "assets/img/mnist.webp",
    "w": 1990,
    "h": 1122,
    "title": "Handwritten digits from the MNIST database (first 576 test images)",
@@ -318,11 +387,14 @@ window.FILM_DATA = {
    "source": "http://yann.lecun.com/exdb/mnist/",
    "focus": "50% 50%",
    "note": "Not from Commons: rendered straight from the MNIST test set as white digits on black (2x nearest-neighbor). Commons' MnistExamples.png is only 594px wide",
-   "noPool": true
+   "noPool": true,
+   "original": "assets/img/mnist.jpg",
+   "sm": "assets/img/mnist-sm.webp",
+   "thumb": "assets/img/mnist-th.webp"
   },
   {
    "id": "fei-fei-li",
-   "file": "assets/img/fei-fei-li.jpg",
+   "file": "assets/img/fei-fei-li.webp",
    "w": 909,
    "h": 1350,
    "title": "Fei-Fei Li speaking at the AI for Good Global Summit, 2017",
@@ -332,11 +404,14 @@ window.FILM_DATA = {
    "source": "https://commons.wikimedia.org/wiki/File:Fei-Fei_Li_at_AI_for_Good_2017.jpg",
    "focus": "50% 18%",
    "note": "Color, portrait orientation; low resolution (909px wide)",
-   "print": "paper"
+   "print": "paper",
+   "original": "assets/img/fei-fei-li.jpg",
+   "sm": "assets/img/fei-fei-li-sm.webp",
+   "thumb": "assets/img/fei-fei-li-th.webp"
   },
   {
    "id": "gpu",
-   "file": "assets/img/gpu.jpg",
+   "file": "assets/img/gpu.webp",
    "w": 2000,
    "h": 1333,
    "title": "Die of the NVIDIA GF110 GPU, the chip inside the GeForce GTX 580",
@@ -345,11 +420,14 @@ window.FILM_DATA = {
    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
    "source": "https://commons.wikimedia.org/wiki/File:NVIDIA@40nm@Fermi@GF110@GeForce_GTX_580@UA10B338_1041A1_N2Y540.000_GF110-375-A1_Stack-DSC06316-DSC06399_-_ZS-retouched_(27576810474).jpg",
    "focus": "50% 50%",
-   "note": "Macro die shot, iridescent on pure black. See gpu-card for the literal card"
+   "note": "Macro die shot, iridescent on pure black. See gpu-card for the literal card",
+   "original": "assets/img/gpu.jpg",
+   "sm": "assets/img/gpu-sm.webp",
+   "thumb": "assets/img/gpu-th.webp"
   },
   {
    "id": "deep-blue",
-   "file": "assets/img/deep-blue.jpg",
+   "file": "assets/img/deep-blue.webp",
    "w": 1500,
    "h": 2000,
    "title": "IBM Deep Blue at the Computer History Museum",
@@ -358,11 +436,14 @@ window.FILM_DATA = {
    "license_url": "https://creativecommons.org/licenses/by/2.0/",
    "source": "https://commons.wikimedia.org/wiki/File:Say_hello_to_Deep_Blue_(2586059148).jpg",
    "focus": "33% 40%",
-   "note": "Portrait orientation; black RS/6000 SP cabinet filling the left two-thirds, museum placard on right; light denoise applied"
+   "note": "Portrait orientation; black RS/6000 SP cabinet filling the left two-thirds, museum placard on right; light denoise applied",
+   "original": "assets/img/deep-blue.jpg",
+   "sm": "assets/img/deep-blue-sm.webp",
+   "thumb": "assets/img/deep-blue-th.webp"
   },
   {
    "id": "kasparov",
-   "file": "assets/img/kasparov.jpg",
+   "file": "assets/img/kasparov.webp",
    "w": 2000,
    "h": 1290,
    "title": "Garry Kasparov at the board, Chess Olympiad, Lucerne, 1982",
@@ -371,11 +452,14 @@ window.FILM_DATA = {
    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
    "source": "https://commons.wikimedia.org/wiki/File:Garry_Kasparov_(Luzern_1982,_2).jpg",
    "focus": "46% 40%",
-   "note": "Grayscale, deep in thought, hand on forehead"
+   "note": "Grayscale, deep in thought, hand on forehead",
+   "original": "assets/img/kasparov.jpg",
+   "sm": "assets/img/kasparov-sm.webp",
+   "thumb": "assets/img/kasparov-th.webp"
   },
   {
    "id": "chess-board",
-   "file": "assets/img/chess-board.jpg",
+   "file": "assets/img/chess-board.webp",
    "w": 2000,
    "h": 1331,
    "title": "Close-up of a king on a chessboard",
@@ -384,11 +468,14 @@ window.FILM_DATA = {
    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
    "source": "https://commons.wikimedia.org/wiki/File:Chess-king.JPG",
    "focus": "50% 45%",
-   "note": "Warm, moody, shallow depth of field"
+   "note": "Warm, moody, shallow depth of field",
+   "original": "assets/img/chess-board.jpg",
+   "sm": "assets/img/chess-board-sm.webp",
+   "thumb": "assets/img/chess-board-th.webp"
   },
   {
    "id": "atari",
-   "file": "assets/img/atari.jpg",
+   "file": "assets/img/atari.webp",
    "w": 2000,
    "h": 1168,
    "title": "Atari 2600 (four-switch wood-veneer model, 1980–82) with joystick",
@@ -398,11 +485,14 @@ window.FILM_DATA = {
    "source": "https://commons.wikimedia.org/wiki/File:Atari-2600-Wood-4Sw-Set.jpg",
    "focus": "45% 55%",
    "note": "Product shot on white background",
-   "noPool": true
+   "noPool": true,
+   "original": "assets/img/atari.jpg",
+   "sm": "assets/img/atari-sm.webp",
+   "thumb": "assets/img/atari-th.webp"
   },
   {
    "id": "go-board",
-   "file": "assets/img/go-board.jpg",
+   "file": "assets/img/go-board.webp",
    "w": 2000,
    "h": 1333,
    "title": "Go stones on a board (GO – Battlefield B&W)",
@@ -411,11 +501,14 @@ window.FILM_DATA = {
    "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
    "source": "https://commons.wikimedia.org/wiki/File:GO_-_Battlefield_B%26W.jpg",
    "focus": "55% 60%",
-   "note": "Dark and moody, shallow depth of field"
+   "note": "Dark and moody, shallow depth of field",
+   "original": "assets/img/go-board.jpg",
+   "sm": "assets/img/go-board-sm.webp",
+   "thumb": "assets/img/go-board-th.webp"
   },
   {
    "id": "lee-sedol",
-   "file": "assets/img/lee-sedol.jpg",
+   "file": "assets/img/lee-sedol.webp",
    "w": 880,
    "h": 865,
    "title": "Lee Sedol, 9-dan Go professional, at an LG Electronics charity event, 2016",
@@ -425,11 +518,14 @@ window.FILM_DATA = {
    "source": "https://commons.wikimedia.org/wiki/File:LG%EC%A0%84%EC%9E%90,_%EC%9D%B4%EC%84%B8%EB%8F%8C_9%EB%8B%A8%EA%B3%BC_%ED%95%A8%EA%BB%98_%ED%95%99%EC%83%9D%EB%93%A4%EC%9D%98_%EA%BF%88_%EA%B7%B8%EB%A6%B0%EB%8B%A4.jpg",
    "focus": "40% 22%",
    "note": "Cropped from a larger event photo to isolate Lee Sedol; low resolution (880x865). Commons has no better CC photo",
-   "print": "paper"
+   "print": "paper",
+   "original": "assets/img/lee-sedol.jpg",
+   "sm": "assets/img/lee-sedol-sm.webp",
+   "thumb": "assets/img/lee-sedol-th.webp"
   },
   {
    "id": "dartmouth-proposal",
-   "file": "assets/img/dartmouth-proposal.jpg",
+   "file": "assets/img/dartmouth-proposal.webp",
    "w": 1920,
    "h": 1267,
    "title": "'A Proposal for the Dartmouth Summer Research Project on Artificial Intelligence' (McCarthy, Minsky, Rochester, Shannon), 31 Aug 1955",
@@ -440,11 +536,14 @@ window.FILM_DATA = {
    "focus": "50% 45%",
    "note": "EXTRA: title page rendered from PDF and cropped to title and authors; black on white",
    "print": "paper",
-   "noPool": true
+   "noPool": true,
+   "original": "assets/img/dartmouth-proposal.jpg",
+   "sm": "assets/img/dartmouth-proposal-sm.webp",
+   "thumb": "assets/img/dartmouth-proposal-th.webp"
   },
   {
    "id": "turing-princeton",
-   "file": "assets/img/turing-princeton.jpg",
+   "file": "assets/img/turing-princeton.webp",
    "w": 2000,
    "h": 1416,
    "title": "Alan Turing's Princeton University graduate record card with photo (1936–38)",
@@ -455,11 +554,14 @@ window.FILM_DATA = {
    "focus": "25% 70%",
    "note": "EXTRA: sepia document with Turing's photo at bottom-left",
    "print": "paper",
-   "noPool": true
+   "noPool": true,
+   "original": "assets/img/turing-princeton.jpg",
+   "sm": "assets/img/turing-princeton-sm.webp",
+   "thumb": "assets/img/turing-princeton-th.webp"
   },
   {
    "id": "pilot-ace",
-   "file": "assets/img/pilot-ace.jpg",
+   "file": "assets/img/pilot-ace.webp",
    "w": 2000,
    "h": 1199,
    "title": "Pilot ACE computer (built from Turing's ACE design, 1950), Science Museum, London",
@@ -468,11 +570,14 @@ window.FILM_DATA = {
    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
    "source": "https://commons.wikimedia.org/wiki/File:Pilot_ACE3.jpg",
    "focus": "45% 50%",
-   "note": "EXTRA: dramatic dark museum shot; alternative for turing-paper"
+   "note": "EXTRA: dramatic dark museum shot; alternative for turing-paper",
+   "original": "assets/img/pilot-ace.jpg",
+   "sm": "assets/img/pilot-ace-sm.webp",
+   "thumb": "assets/img/pilot-ace-th.webp"
   },
   {
    "id": "shannon-theseus",
-   "file": "assets/img/shannon-theseus.jpg",
+   "file": "assets/img/shannon-theseus.webp",
    "w": 2000,
    "h": 1161,
    "title": "Theseus, Claude Shannon's maze-solving mechanical mouse (1952), MIT Museum",
@@ -481,11 +586,14 @@ window.FILM_DATA = {
    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
    "source": "https://commons.wikimedia.org/wiki/File:Theseus_Maze_by_Claude_Shannon,_1952_-_MIT_Museum_-_DSC03702.JPG",
    "focus": "55% 50%",
-   "note": "EXTRA: color, silver maze with mouse"
+   "note": "EXTRA: color, silver maze with mouse",
+   "original": "assets/img/shannon-theseus.jpg",
+   "sm": "assets/img/shannon-theseus-sm.webp",
+   "thumb": "assets/img/shannon-theseus-th.webp"
   },
   {
    "id": "maniac-chess",
-   "file": "assets/img/maniac-chess.jpg",
+   "file": "assets/img/maniac-chess.webp",
    "w": 1000,
    "h": 889,
    "title": "Paul Stein and Nicholas Metropolis play 'Los Alamos' chess against the MANIAC",
@@ -495,11 +603,14 @@ window.FILM_DATA = {
    "source": "https://commons.wikimedia.org/wiki/File:Paul_Stein_and_Nicholas_Metropolis_play_%E2%80%9CLos_Alamos%E2%80%9D_chess_against_the_MANIAC.jpg",
    "focus": "45% 45%",
    "note": "EXTRA: grayscale; low resolution (1000px wide)",
-   "print": "paper"
+   "print": "paper",
+   "original": "assets/img/maniac-chess.jpg",
+   "sm": "assets/img/maniac-chess-sm.webp",
+   "thumb": "assets/img/maniac-chess-th.webp"
   },
   {
    "id": "ibm-704-room",
-   "file": "assets/img/ibm-704-room.jpg",
+   "file": "assets/img/ibm-704-room.webp",
    "w": 2000,
    "h": 1275,
    "title": "IBM 704 computer operations room, NACA Langley, 16 December 1957",
@@ -508,11 +619,14 @@ window.FILM_DATA = {
    "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
    "source": "https://commons.wikimedia.org/wiki/File:IBM_704_Computer_Operations_(LRC-1957-B701_P-05391).tiff",
    "focus": "50% 55%",
-   "note": "EXTRA: wide grayscale office/computer room; alternative mainframe-room"
+   "note": "EXTRA: wide grayscale office/computer room; alternative mainframe-room",
+   "original": "assets/img/ibm-704-room.jpg",
+   "sm": "assets/img/ibm-704-room-sm.webp",
+   "thumb": "assets/img/ibm-704-room-th.webp"
   },
   {
    "id": "gpu-card",
-   "file": "assets/img/gpu-card.jpg",
+   "file": "assets/img/gpu-card.webp",
    "w": 2000,
    "h": 947,
    "title": "EVGA NVIDIA GeForce GTX 580 graphics card (2010)",
@@ -521,11 +635,14 @@ window.FILM_DATA = {
    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
    "source": "https://commons.wikimedia.org/wiki/File:EVGAGeforceGTX580.jpg",
    "focus": "45% 50%",
-   "note": "EXTRA: the literal GTX 580 card; warm flash lighting on a wooden surface (less cinematic)"
+   "note": "EXTRA: the literal GTX 580 card; warm flash lighting on a wooden surface (less cinematic)",
+   "original": "assets/img/gpu-card.jpg",
+   "sm": "assets/img/gpu-card-sm.webp",
+   "thumb": "assets/img/gpu-card-th.webp"
   },
   {
    "id": "transformer-diagram",
-   "file": "assets/img/transformer-diagram.jpg",
+   "file": "assets/img/transformer-diagram.webp",
    "w": 1426,
    "h": 1500,
    "title": "The Transformer architecture (encoder–decoder)",
@@ -535,11 +652,14 @@ window.FILM_DATA = {
    "source": "https://commons.wikimedia.org/wiki/File:Transformer,_full_architecture.png",
    "focus": "50% 50%",
    "note": "Clean redraw of the Vaswani et al. (2017) Transformer. Transparent PNG flattened onto white; for a dark theme try CSS filter: invert(1) hue-rotate(180deg).",
-   "noPool": true
+   "noPool": true,
+   "original": "assets/img/transformer-diagram.jpg",
+   "sm": "assets/img/transformer-diagram-sm.webp",
+   "thumb": "assets/img/transformer-diagram-th.webp"
   },
   {
    "id": "ai-art-sd",
-   "file": "assets/img/ai-art-sd.jpg",
+   "file": "assets/img/ai-art-sd.webp",
    "w": 1024,
    "h": 1024,
    "title": "“A photograph of an astronaut riding a horse”, Stable Diffusion XL",
@@ -548,11 +668,14 @@ window.FILM_DATA = {
    "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
    "source": "https://commons.wikimedia.org/wiki/File:Astronaut_Riding_a_Horse_(SDXL).jpg",
    "focus": "52% 40%",
-   "note": "Model: Stable Diffusion XL 1.0 (NightCafe Studio). Prompt: \"a photograph of an astronaut riding a horse\". AI-generated, released as public domain. Native 1024x1024, best framed/inset or with gentle zoom."
+   "note": "Model: Stable Diffusion XL 1.0 (NightCafe Studio). Prompt: \"a photograph of an astronaut riding a horse\". AI-generated, released as public domain. Native 1024x1024, best framed/inset or with gentle zoom.",
+   "original": "assets/img/ai-art-sd.jpg",
+   "sm": "assets/img/ai-art-sd-sm.webp",
+   "thumb": "assets/img/ai-art-sd-th.webp"
   },
   {
    "id": "ai-art-dalle",
-   "file": "assets/img/ai-art-dalle.jpg",
+   "file": "assets/img/ai-art-dalle.webp",
    "w": 900,
    "h": 900,
    "title": "“A photo of a robot hand drawing, digital art”, DALL·E 2",
@@ -562,11 +685,14 @@ window.FILM_DATA = {
    "source": "https://commons.wikimedia.org/wiki/File:DALL-E_2_%22A_photo_of_a_robot_hand_drawing,_digital_art%22.jpg",
    "focus": "45% 45%",
    "note": "Model: DALL·E 2 (OpenAI), 2022. Prompt: \"A photo of a robot hand drawing, digital art\". AI-generated, public domain on Commons. Native 900x900, use as an inset/framed artwork.",
-   "print": "plain"
+   "print": "plain",
+   "original": "assets/img/ai-art-dalle.jpg",
+   "sm": "assets/img/ai-art-dalle-sm.webp",
+   "thumb": "assets/img/ai-art-dalle-th.webp"
   },
   {
    "id": "keyboard-glow",
-   "file": "assets/img/keyboard-glow.jpg",
+   "file": "assets/img/keyboard-glow.webp",
    "w": 2000,
    "h": 1495,
    "title": "Backlit laptop keyboard in the dark",
@@ -574,11 +700,14 @@ window.FILM_DATA = {
    "license": "CC BY-SA 4.0",
    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
    "source": "https://commons.wikimedia.org/wiki/File:Keyboard_in_dark.png",
-   "focus": "50% 55%"
+   "focus": "50% 55%",
+   "original": "assets/img/keyboard-glow.jpg",
+   "sm": "assets/img/keyboard-glow-sm.webp",
+   "thumb": "assets/img/keyboard-glow-th.webp"
   },
   {
    "id": "smartphone",
-   "file": "assets/img/smartphone.jpg",
+   "file": "assets/img/smartphone.webp",
    "w": 2000,
    "h": 1333,
    "title": "Face lit by a smartphone in the dark",
@@ -587,11 +716,14 @@ window.FILM_DATA = {
    "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
    "source": "https://commons.wikimedia.org/wiki/File:Person_looking_at_smartphone_in_the_dark_(2).jpg",
    "focus": "50% 45%",
-   "note": "Photographer asks for credit as \"Japanexperterna.se\" (linked to www.japanexperterna.se where possible)."
+   "note": "Photographer asks for credit as \"Japanexperterna.se\" (linked to www.japanexperterna.se where possible).",
+   "original": "assets/img/smartphone.jpg",
+   "sm": "assets/img/smartphone-sm.webp",
+   "thumb": "assets/img/smartphone-th.webp"
   },
   {
    "id": "server-racks",
-   "file": "assets/img/server-racks.jpg",
+   "file": "assets/img/server-racks.webp",
    "w": 2000,
    "h": 1333,
    "title": "Data-centre aisle, CERN Computer Centre",
@@ -600,11 +732,14 @@ window.FILM_DATA = {
    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
    "source": "https://commons.wikimedia.org/wiki/File:CERN_Computer_Center_03.jpg",
    "focus": "52% 40%",
-   "note": "Dark storage/rack aisle in the CERN Computer Centre (tape library racks) with ceiling lights receding, strong one-point perspective."
+   "note": "Dark storage/rack aisle in the CERN Computer Centre (tape library racks) with ceiling lights receding, strong one-point perspective.",
+   "original": "assets/img/server-racks.jpg",
+   "sm": "assets/img/server-racks-sm.webp",
+   "thumb": "assets/img/server-racks-th.webp"
   },
   {
    "id": "supercomputer",
-   "file": "assets/img/supercomputer.jpg",
+   "file": "assets/img/supercomputer.webp",
    "w": 2000,
    "h": 1333,
    "title": "Frontier exascale supercomputer, Oak Ridge National Laboratory",
@@ -613,11 +748,14 @@ window.FILM_DATA = {
    "license_url": "https://creativecommons.org/licenses/by/2.0/",
    "source": "https://commons.wikimedia.org/wiki/File:Frontier_supercomputer_(6).jpg",
    "focus": "65% 55%",
-   "note": "Frontier (HPE Cray EX, AMD) at ORNL, first exascale system, #1 on TOP500 in May 2022. ORNL Flickr photo licensed CC BY 2.0 (not PD)."
+   "note": "Frontier (HPE Cray EX, AMD) at ORNL, first exascale system, #1 on TOP500 in May 2022. ORNL Flickr photo licensed CC BY 2.0 (not PD).",
+   "original": "assets/img/supercomputer.jpg",
+   "sm": "assets/img/supercomputer-sm.webp",
+   "thumb": "assets/img/supercomputer-th.webp"
   },
   {
    "id": "chip-macro",
-   "file": "assets/img/chip-macro.jpg",
+   "file": "assets/img/chip-macro.webp",
    "w": 1800,
    "h": 1200,
    "title": "Silicon wafer with iridescent dies",
@@ -626,11 +764,14 @@ window.FILM_DATA = {
    "license_url": "https://creativecommons.org/licenses/by/2.0/",
    "source": "https://commons.wikimedia.org/wiki/File:5C2A5953R_-_49913961083_%E2%80%93_Silicon_Wafer_20200519.jpg",
    "focus": "50% 50%",
-   "note": "Saved at 1800px long edge to stay under 500KB (very fine detail)."
+   "note": "Saved at 1800px long edge to stay under 500KB (very fine detail).",
+   "original": "assets/img/chip-macro.jpg",
+   "sm": "assets/img/chip-macro-sm.webp",
+   "thumb": "assets/img/chip-macro-th.webp"
   },
   {
    "id": "protein-1",
-   "file": "assets/img/protein-1.jpg",
+   "file": "assets/img/protein-1.webp",
    "w": 2000,
    "h": 2000,
    "title": "Bacteriorhodopsin ribbon model (PDB 1M0K)",
@@ -639,11 +780,14 @@ window.FILM_DATA = {
    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
    "source": "https://commons.wikimedia.org/wiki/File:1M0K.png",
    "focus": "50% 50%",
-   "note": "Rainbow-coloured ribbon of bacteriorhodopsin from PDB 1M0K (Schobert et al., 2002) on black. Square image; protein is centred."
+   "note": "Rainbow-coloured ribbon of bacteriorhodopsin from PDB 1M0K (Schobert et al., 2002) on black. Square image; protein is centred.",
+   "original": "assets/img/protein-1.jpg",
+   "sm": "assets/img/protein-1-sm.webp",
+   "thumb": "assets/img/protein-1-th.webp"
   },
   {
    "id": "protein-2",
-   "file": "assets/img/protein-2.jpg",
+   "file": "assets/img/protein-2.webp",
    "w": 1280,
    "h": 720,
    "title": "AlphaFold prediction of human GDF15 (AF-Q99988-F1)",
@@ -652,11 +796,14 @@ window.FILM_DATA = {
    "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
    "source": "https://commons.wikimedia.org/wiki/File:GDF15_en_Homo_sapiens_(AlphaFold).png",
    "focus": "50% 50%",
-   "note": "AlphaFold-predicted structure coloured by AlphaFold's pLDDT confidence scheme (dark blue = very high … orange = very low). Native 1280x720, use as inset or with gentle zoom."
+   "note": "AlphaFold-predicted structure coloured by AlphaFold's pLDDT confidence scheme (dark blue = very high … orange = very low). Native 1280x720, use as inset or with gentle zoom.",
+   "original": "assets/img/protein-2.jpg",
+   "sm": "assets/img/protein-2-sm.webp",
+   "thumb": "assets/img/protein-2-th.webp"
   },
   {
    "id": "dna",
-   "file": "assets/img/dna.jpg",
+   "file": "assets/img/dna.webp",
    "w": 1920,
    "h": 1080,
    "title": "DNA double helix",
@@ -665,11 +812,14 @@ window.FILM_DATA = {
    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
    "source": "https://commons.wikimedia.org/wiki/File:Dna-163466.jpg",
    "focus": "55% 50%",
-   "note": "3D render, blue helices on black. Native 1920x1080."
+   "note": "3D render, blue helices on black. Native 1920x1080.",
+   "original": "assets/img/dna.jpg",
+   "sm": "assets/img/dna-sm.webp",
+   "thumb": "assets/img/dna-th.webp"
   },
   {
    "id": "lab",
-   "file": "assets/img/lab.jpg",
+   "file": "assets/img/lab.webp",
    "w": 2000,
    "h": 1336,
    "title": "Scientist at the Berkeley Gas-filled Separator, Lawrence Berkeley National Laboratory",
@@ -678,11 +828,14 @@ window.FILM_DATA = {
    "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
    "source": "https://commons.wikimedia.org/wiki/File:SCIENCE_(54934948025).jpg",
    "focus": "65% 40%",
-   "note": "Staff scientist Jacklyn Gates at the Berkeley Gas-filled Separator, 88-Inch Cyclotron, Berkeley Lab, July 2024."
+   "note": "Staff scientist Jacklyn Gates at the Berkeley Gas-filled Separator, 88-Inch Cyclotron, Berkeley Lab, July 2024.",
+   "original": "assets/img/lab.jpg",
+   "sm": "assets/img/lab-sm.webp",
+   "thumb": "assets/img/lab-th.webp"
   },
   {
    "id": "nobel-medal",
-   "file": "assets/img/nobel-medal.jpg",
+   "file": "assets/img/nobel-medal.webp",
    "w": 2000,
    "h": 1333,
    "title": "Nobel Prize medal (Alexander Fleming, 1945)",
@@ -691,11 +844,14 @@ window.FILM_DATA = {
    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
    "source": "https://commons.wikimedia.org/wiki/File:Nobel_prize_medal_for_medicine,_Sweden,_1945,_to_Sir_Alexander_Fleming_(1881-1955)_who_discovered_Penicillin._On_display_at_the_National_Museum_of_Scotland.jpg",
    "focus": "60% 40%",
-   "note": "Fleming's 1945 Nobel medal for Physiology or Medicine, National Museum of Scotland, Edinburgh. Bokeh background."
+   "note": "Fleming's 1945 Nobel medal for Physiology or Medicine, National Museum of Scotland, Edinburgh. Bokeh background.",
+   "original": "assets/img/nobel-medal.jpg",
+   "sm": "assets/img/nobel-medal-sm.webp",
+   "thumb": "assets/img/nobel-medal-th.webp"
   },
   {
    "id": "hassabis",
-   "file": "assets/img/hassabis.jpg",
+   "file": "assets/img/hassabis.webp",
    "w": 2000,
    "h": 1334,
    "title": "Demis Hassabis, 2024 Nobel laureate in Chemistry",
@@ -704,11 +860,14 @@ window.FILM_DATA = {
    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
    "source": "https://commons.wikimedia.org/wiki/File:Demis_Hassabis,_2024_Nobel_Prize_Laureate_in_Chemistry_6.jpg",
    "focus": "34% 30%",
-   "note": "Nobel Prize week, Stockholm, December 2024."
+   "note": "Nobel Prize week, Stockholm, December 2024.",
+   "original": "assets/img/hassabis.jpg",
+   "sm": "assets/img/hassabis-sm.webp",
+   "thumb": "assets/img/hassabis-th.webp"
   },
   {
    "id": "jumper",
-   "file": "assets/img/jumper.jpg",
+   "file": "assets/img/jumper.webp",
    "w": 2000,
    "h": 1334,
    "title": "John Jumper, 2024 Nobel laureate in Chemistry",
@@ -717,11 +876,14 @@ window.FILM_DATA = {
    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
    "source": "https://commons.wikimedia.org/wiki/File:John_Jumper,_2024_Nobel_Prize_Laureate_in_Chemistry_6.jpg",
    "focus": "80% 30%",
-   "note": "Nobel Prize week, Stockholm, December 2024. Same series/backdrop as hassabis."
+   "note": "Nobel Prize week, Stockholm, December 2024. Same series/backdrop as hassabis.",
+   "original": "assets/img/jumper.jpg",
+   "sm": "assets/img/jumper-sm.webp",
+   "thumb": "assets/img/jumper-th.webp"
   },
   {
    "id": "baker",
-   "file": "assets/img/baker.jpg",
+   "file": "assets/img/baker.webp",
    "w": 2000,
    "h": 1334,
    "title": "David Baker, 2024 Nobel laureate in Chemistry",
@@ -730,11 +892,14 @@ window.FILM_DATA = {
    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
    "source": "https://commons.wikimedia.org/wiki/File:David_Baker,_2024_Nobel_Prize_Laureate_in_Chemistry_6.jpg",
    "focus": "50% 35%",
-   "note": "Nobel Prize week, Stockholm, December 2024."
+   "note": "Nobel Prize week, Stockholm, December 2024.",
+   "original": "assets/img/baker.jpg",
+   "sm": "assets/img/baker-sm.webp",
+   "thumb": "assets/img/baker-th.webp"
   },
   {
    "id": "hopfield",
-   "file": "assets/img/hopfield.jpg",
+   "file": "assets/img/hopfield.webp",
    "w": 2000,
    "h": 1333,
    "title": "John Hopfield delivering his Nobel Lecture, 2024",
@@ -743,11 +908,14 @@ window.FILM_DATA = {
    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
    "source": "https://commons.wikimedia.org/wiki/File:John_Hopfield_at_the_2024_Nobel_Lectures.jpg",
    "focus": "64% 40%",
-   "note": "2024 Nobel Lectures, Stockholm University. Bright cyan screen across the top, crop/zoom toward the speaker."
+   "note": "2024 Nobel Lectures, Stockholm University. Bright cyan screen across the top, crop/zoom toward the speaker.",
+   "original": "assets/img/hopfield.jpg",
+   "sm": "assets/img/hopfield-sm.webp",
+   "thumb": "assets/img/hopfield-th.webp"
   },
   {
    "id": "nobel-ceremony",
-   "file": "assets/img/nobel-ceremony.jpg",
+   "file": "assets/img/nobel-ceremony.webp",
    "w": 2000,
    "h": 1333,
    "title": "Stockholm Concert Hall set for the Nobel Prize ceremony",
@@ -756,11 +924,14 @@ window.FILM_DATA = {
    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
    "source": "https://commons.wikimedia.org/wiki/File:Konserthuset_Stockholm_(Stockholm_Concert_Hall).jpg",
    "focus": "50% 45%",
-   "note": "Konserthuset Stockholm stage dressed for the 2025 Nobel Prize award ceremony (empty hall, \"The Nobel Prize\" banner)."
+   "note": "Konserthuset Stockholm stage dressed for the 2025 Nobel Prize award ceremony (empty hall, \"The Nobel Prize\" banner).",
+   "original": "assets/img/nobel-ceremony.jpg",
+   "sm": "assets/img/nobel-ceremony-sm.webp",
+   "thumb": "assets/img/nobel-ceremony-th.webp"
   },
   {
    "id": "robonaut",
-   "file": "assets/img/robonaut.jpg",
+   "file": "assets/img/robonaut.webp",
    "w": 2000,
    "h": 1331,
    "title": "NASA Robonaut 2",
@@ -769,11 +940,14 @@ window.FILM_DATA = {
    "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
    "source": "https://commons.wikimedia.org/wiki/File:Robonaut_2.jpg",
    "focus": "58% 35%",
-   "note": "Robonaut 2 (NASA–General Motors), JSC2009-E-155300, 2009. Dark blue studio background."
+   "note": "Robonaut 2 (NASA–General Motors), JSC2009-E-155300, 2009. Dark blue studio background.",
+   "original": "assets/img/robonaut.jpg",
+   "sm": "assets/img/robonaut-sm.webp",
+   "thumb": "assets/img/robonaut-th.webp"
   },
   {
    "id": "valkyrie",
-   "file": "assets/img/valkyrie.jpg",
+   "file": "assets/img/valkyrie.webp",
    "w": 2000,
    "h": 1500,
    "title": "NASA Valkyrie (R5) humanoid robot",
@@ -782,11 +956,14 @@ window.FILM_DATA = {
    "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
    "source": "https://commons.wikimedia.org/wiki/File:Valkyrie-robot-4.jpg",
    "focus": "50% 30%",
-   "note": "NASA JSC's R5 'Valkyrie', built for the DARPA Robotics Challenge."
+   "note": "NASA JSC's R5 'Valkyrie', built for the DARPA Robotics Challenge.",
+   "original": "assets/img/valkyrie.jpg",
+   "sm": "assets/img/valkyrie-sm.webp",
+   "thumb": "assets/img/valkyrie-th.webp"
   },
   {
    "id": "humanoid-modern",
-   "file": "assets/img/humanoid-modern.jpg",
+   "file": "assets/img/humanoid-modern.webp",
    "w": 2000,
    "h": 1125,
    "title": "Unitree G1 humanoid robot, Japan Mobility Show 2025",
@@ -795,11 +972,14 @@ window.FILM_DATA = {
    "license_url": "https://creativecommons.org/licenses/by/4.0/",
    "source": "https://commons.wikimedia.org/wiki/File:Japan-Mobility-Show-2025-RuinDig_0564.jpg",
    "focus": "28% 60%",
-   "note": "Unitree G1 humanoid (left) with VISIONOID 'FOX' animanoid and Unitree Go2 robot dog on stage, Japan Mobility Show 2025, Tokyo Big Sight. Robot is small in frame, zoom toward focus."
+   "note": "Unitree G1 humanoid (left) with VISIONOID 'FOX' animanoid and Unitree Go2 robot dog on stage, Japan Mobility Show 2025, Tokyo Big Sight. Robot is small in frame, zoom toward focus.",
+   "original": "assets/img/humanoid-modern.jpg",
+   "sm": "assets/img/humanoid-modern-sm.webp",
+   "thumb": "assets/img/humanoid-modern-th.webp"
   },
   {
    "id": "robot-arm",
-   "file": "assets/img/robot-arm.jpg",
+   "file": "assets/img/robot-arm.webp",
    "w": 2000,
    "h": 1280,
    "title": "KUKA industrial robot arms on a production line",
@@ -808,11 +988,14 @@ window.FILM_DATA = {
    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
    "source": "https://commons.wikimedia.org/wiki/File:Linia_zrobotyzowana_w_AIUT.png",
    "focus": "45% 55%",
-   "note": "Robotised production line at AIUT (Poland)."
+   "note": "Robotised production line at AIUT (Poland).",
+   "original": "assets/img/robot-arm.jpg",
+   "sm": "assets/img/robot-arm-sm.webp",
+   "thumb": "assets/img/robot-arm-th.webp"
   },
   {
    "id": "darpa-robot",
-   "file": "assets/img/darpa-robot.jpg",
+   "file": "assets/img/darpa-robot.webp",
    "w": 2000,
    "h": 1331,
    "title": "IHMC's Atlas robot at the 2015 DARPA Robotics Challenge Finals",
@@ -821,11 +1004,14 @@ window.FILM_DATA = {
    "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
    "source": "https://commons.wikimedia.org/wiki/File:2015_DARPA_Robotics_Challenge_150606-N-PO203-565.jpg",
    "focus": "60% 60%",
-   "note": "IHMC (Florida Institute for Human & Machine Cognition) Atlas climbing debris on its way to 2nd place, DRC Finals, Pomona, California, 6 June 2015. DVIDS 150606-N-PO203-565."
+   "note": "IHMC (Florida Institute for Human & Machine Cognition) Atlas climbing debris on its way to 2nd place, DRC Finals, Pomona, California, 6 June 2015. DVIDS 150606-N-PO203-565.",
+   "original": "assets/img/darpa-robot.jpg",
+   "sm": "assets/img/darpa-robot-sm.webp",
+   "thumb": "assets/img/darpa-robot-th.webp"
   },
   {
    "id": "self-driving",
-   "file": "assets/img/self-driving.jpg",
+   "file": "assets/img/self-driving.webp",
    "w": 2000,
    "h": 1500,
    "title": "Waymo driverless car on California Street, San Francisco",
@@ -834,11 +1020,14 @@ window.FILM_DATA = {
    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
    "source": "https://commons.wikimedia.org/wiki/File:San_Francisco_(CA,_USA),_California_Street,_autonomes_Fahrzeug_(Waymo)_--_2022_--_2925.jpg",
    "focus": "38% 50%",
-   "note": "Waymo Jaguar I-PACE robotaxi, 2022."
+   "note": "Waymo Jaguar I-PACE robotaxi, 2022.",
+   "original": "assets/img/self-driving.jpg",
+   "sm": "assets/img/self-driving-sm.webp",
+   "thumb": "assets/img/self-driving-th.webp"
   },
   {
    "id": "earth-night",
-   "file": "assets/img/earth-night.jpg",
+   "file": "assets/img/earth-night.webp",
    "w": 2000,
    "h": 1333,
    "title": "City lights of the United States at night (Black Marble)",
@@ -847,11 +1036,14 @@ window.FILM_DATA = {
    "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
    "source": "https://commons.wikimedia.org/wiki/File:City_Lights_of_the_United_States_2012.jpg",
    "focus": "60% 50%",
-   "note": "Suomi NPP VIIRS day-night band composite, April & October 2012, reads like a glowing neural network."
+   "note": "Suomi NPP VIIRS day-night band composite, April & October 2012, reads like a glowing neural network.",
+   "original": "assets/img/earth-night.jpg",
+   "sm": "assets/img/earth-night-sm.webp",
+   "thumb": "assets/img/earth-night-th.webp"
   },
   {
    "id": "earth-limb",
-   "file": "assets/img/earth-limb.jpg",
+   "file": "assets/img/earth-limb.webp",
    "w": 2000,
    "h": 1331,
    "title": "Earth's limb and airglow from the International Space Station",
@@ -860,11 +1052,14 @@ window.FILM_DATA = {
    "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
    "source": "https://commons.wikimedia.org/wiki/File:ISS-47_Earth%E2%80%99s_limb_during_a_starry_night_pass_above_the_Indian_Ocean.jpg",
    "focus": "50% 70%",
-   "note": "Expedition 47 night pass over the Indian Ocean; green/orange airglow, star field, ISS solar array at right."
+   "note": "Expedition 47 night pass over the Indian Ocean; green/orange airglow, star field, ISS solar array at right.",
+   "original": "assets/img/earth-limb.jpg",
+   "sm": "assets/img/earth-limb-sm.webp",
+   "thumb": "assets/img/earth-limb-th.webp"
   },
   {
    "id": "deep-field",
-   "file": "assets/img/deep-field.jpg",
+   "file": "assets/img/deep-field.webp",
    "w": 1960,
    "h": 2000,
    "title": "Webb's First Deep Field (SMACS 0723)",
@@ -873,11 +1068,14 @@ window.FILM_DATA = {
    "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
    "source": "https://commons.wikimedia.org/wiki/File:Webb%27s_First_Deep_Field.jpg",
    "focus": "50% 50%",
-   "note": "James Webb Space Telescope, July 2022. Near-square image."
+   "note": "James Webb Space Telescope, July 2022. Near-square image.",
+   "original": "assets/img/deep-field.jpg",
+   "sm": "assets/img/deep-field-sm.webp",
+   "thumb": "assets/img/deep-field-th.webp"
   },
   {
    "id": "city-night",
-   "file": "assets/img/city-night.jpg",
+   "file": "assets/img/city-night.webp",
    "w": 2000,
    "h": 1333,
    "title": "Tokyo from the air at night",
@@ -886,11 +1084,14 @@ window.FILM_DATA = {
    "license_url": "https://creativecommons.org/licenses/by/2.0/",
    "source": "https://commons.wikimedia.org/wiki/File:Tokyo_night_aerial_(52995619384).jpg",
    "focus": "50% 60%",
-   "note": "Aerial view at blue hour; Rainbow Bridge and Tokyo Bay at left."
+   "note": "Aerial view at blue hour; Rainbow Bridge and Tokyo Bay at left.",
+   "original": "assets/img/city-night.jpg",
+   "sm": "assets/img/city-night-sm.webp",
+   "thumb": "assets/img/city-night-th.webp"
   },
   {
    "id": "crowd-phones",
-   "file": "assets/img/crowd-phones.jpg",
+   "file": "assets/img/crowd-phones.webp",
    "w": 2000,
    "h": 1333,
    "title": "Shibuya Crossing, Tokyo, people and phones",
@@ -899,11 +1100,14 @@ window.FILM_DATA = {
    "license_url": "https://creativecommons.org/licenses/by/2.0/",
    "source": "https://commons.wikimedia.org/wiki/File:Shibuya_Crossing_(53333799585).jpg",
    "focus": "40% 55%",
-   "note": "Pedestrians at Shibuya scramble crossing; man in foreground looking at his phone, another photographing with his."
+   "note": "Pedestrians at Shibuya scramble crossing; man in foreground looking at his phone, another photographing with his.",
+   "original": "assets/img/crowd-phones.jpg",
+   "sm": "assets/img/crowd-phones-sm.webp",
+   "thumb": "assets/img/crowd-phones-th.webp"
   },
   {
    "id": "health",
-   "file": "assets/img/health.jpg",
+   "file": "assets/img/health.webp",
    "w": 2000,
    "h": 1303,
    "title": "A doctor examines a patient with a stethoscope, National Cancer Institute",
@@ -912,11 +1116,14 @@ window.FILM_DATA = {
    "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
    "source": "https://commons.wikimedia.org/wiki/File:Doctor_examines_patient_(2).jpg",
    "focus": "50% 40%",
-   "note": "NCI Visuals Online image 4558. A doctor from the NCI Urologic Oncology Branch listens to a patient's back, hand on his shoulder, while a colleague observes. Warm, human, bright clinical room."
+   "note": "NCI Visuals Online image 4558. A doctor from the NCI Urologic Oncology Branch listens to a patient's back, hand on his shoulder, while a colleague observes. Warm, human, bright clinical room.",
+   "original": "assets/img/health.jpg",
+   "sm": "assets/img/health-sm.webp",
+   "thumb": "assets/img/health-th.webp"
   },
   {
    "id": "education",
-   "file": "assets/img/education.jpg",
+   "file": "assets/img/education.webp",
    "w": 2000,
    "h": 1333,
    "title": "Students learning on laptops at Kagugu Primary School, Kigali, Rwanda",
@@ -925,11 +1132,14 @@ window.FILM_DATA = {
    "license_url": "https://creativecommons.org/licenses/by/2.0/",
    "source": "https://commons.wikimedia.org/wiki/File:Kagugu_Classroom_(4844912130).jpg",
    "focus": "60% 45%",
-   "note": "Secondary-age pupils with green XO laptops in front of a chalkboard. Cropped to 3:2 from 2089x1799."
+   "note": "Secondary-age pupils with green XO laptops in front of a chalkboard. Cropped to 3:2 from 2089x1799.",
+   "original": "assets/img/education.jpg",
+   "sm": "assets/img/education-sm.webp",
+   "thumb": "assets/img/education-th.webp"
   },
   {
    "id": "earth-fields",
-   "file": "assets/img/earth-fields.jpg",
+   "file": "assets/img/earth-fields.webp",
    "w": 2000,
    "h": 1333,
    "title": "Centre-pivot crop fields in Kansas, seen by NASA's Terra satellite (ASTER, June 2001)",
@@ -938,11 +1148,14 @@ window.FILM_DATA = {
    "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
    "source": "https://commons.wikimedia.org/wiki/File:Crops_Kansas_AST_20010624.jpg",
    "focus": "50% 50%",
-   "note": "Classic ASTER image of circular irrigated fields in green and gold. Cropped to 3:2 from a near-square original."
+   "note": "Classic ASTER image of circular irrigated fields in green and gold. Cropped to 3:2 from a near-square original.",
+   "original": "assets/img/earth-fields.jpg",
+   "sm": "assets/img/earth-fields-sm.webp",
+   "thumb": "assets/img/earth-fields-th.webp"
   },
   {
    "id": "wind",
-   "file": "assets/img/wind.jpg",
+   "file": "assets/img/wind.webp",
    "w": 2000,
    "h": 1449,
    "title": "Wind turbine at dusk, Snowflake, Arizona",
@@ -951,11 +1164,14 @@ window.FILM_DATA = {
    "license_url": "https://creativecommons.org/licenses/by/2.0/",
    "source": "https://commons.wikimedia.org/wiki/File:Wind_turbine_at_dusk,_Snowflake,_AZ.jpg",
    "focus": "40% 45%",
-   "note": "Single turbine silhouetted against a teal to orange dusk gradient; dark ground at the bottom for text."
+   "note": "Single turbine silhouetted against a teal to orange dusk gradient; dark ground at the bottom for text.",
+   "original": "assets/img/wind.jpg",
+   "sm": "assets/img/wind-sm.webp",
+   "thumb": "assets/img/wind-th.webp"
   },
   {
    "id": "access",
-   "file": "assets/img/access.jpg",
+   "file": "assets/img/access.webp",
    "w": 2000,
    "h": 1333,
    "title": "Hands reading a braille concert programme, Taiwan (2016)",
@@ -964,11 +1180,14 @@ window.FILM_DATA = {
    "license_url": "https://creativecommons.org/licenses/by/2.0/",
    "source": "https://commons.wikimedia.org/wiki/File:11.19_%E3%80%8C2016%E7%B8%BD%E7%B5%B1%E5%BA%9C%E9%9F%B3%E6%A8%82%E6%9C%83%E3%80%8D%E7%8F%BE%E5%A0%B4_(31072356766).jpg",
    "focus": "65% 50%",
-   "note": "Two hands reading the braille edition of the 2016 Presidential Office Concert programme. Warm light, no faces."
+   "note": "Two hands reading the braille edition of the 2016 Presidential Office Concert programme. Warm light, no faces.",
+   "original": "assets/img/access.jpg",
+   "sm": "assets/img/access-sm.webp",
+   "thumb": "assets/img/access-th.webp"
   },
   {
    "id": "create",
-   "file": "assets/img/create.jpg",
+   "file": "assets/img/create.webp",
    "w": 2000,
    "h": 1333,
    "title": "Hands playing a kora, a West African string instrument",
@@ -977,11 +1196,14 @@ window.FILM_DATA = {
    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
    "source": "https://commons.wikimedia.org/wiki/File:Instrument_de_Percussion_Africain_jouer_%C3%A0_la_main_33.png",
    "focus": "50% 50%",
-   "note": "Warm close-up of fingers plucking kora strings. Commons file title calls it a hand-played African percussion instrument; uploaded for the Wiki Loves Africa 'Rites and Rituals' theme. Cropped to 3:2 from a near-square original."
+   "note": "Warm close-up of fingers plucking kora strings. Commons file title calls it a hand-played African percussion instrument; uploaded for the Wiki Loves Africa 'Rites and Rituals' theme. Cropped to 3:2 from a near-square original.",
+   "original": "assets/img/create.jpg",
+   "sm": "assets/img/create-sm.webp",
+   "thumb": "assets/img/create-th.webp"
   },
   {
    "id": "misinfo",
-   "file": "assets/img/misinfo.jpg",
+   "file": "assets/img/misinfo.webp",
    "w": 2000,
    "h": 1333,
    "title": "The words FAKE NEWS revealed beneath a torn newspaper",
@@ -990,11 +1212,14 @@ window.FILM_DATA = {
    "license_url": "https://creativecommons.org/licenses/by/2.0/",
    "source": "https://commons.wikimedia.org/wiki/File:Fake_News_Spelled_Out_In_Newspaper.jpg",
    "focus": "35% 50%",
-   "note": "Torn newsprint revealing a typed FAKE NEWS label; reads clearly as misinformation. Background is body text of a news story, not a front page. Photographer asks for credit with a link to www.journolink.com. Cropped to 3:2."
+   "note": "Torn newsprint revealing a typed FAKE NEWS label; reads clearly as misinformation. Background is body text of a news story, not a front page. Photographer asks for credit with a link to www.journolink.com. Cropped to 3:2.",
+   "original": "assets/img/misinfo.jpg",
+   "sm": "assets/img/misinfo-sm.webp",
+   "thumb": "assets/img/misinfo-th.webp"
   },
   {
    "id": "face-statue",
-   "file": "assets/img/face-statue.jpg",
+   "file": "assets/img/face-statue.webp",
    "w": 2000,
    "h": 1499,
    "title": "Marble head of Apollo, Roman copy (c. 120 to 140 AD) of a Greek bronze, British Museum",
@@ -1003,11 +1228,14 @@ window.FILM_DATA = {
    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
    "source": "https://commons.wikimedia.org/wiki/File:Cabeza_de_Apolo,_British_Museum.jpg",
    "focus": "45% 45%",
-   "note": "Ancient marble head against a dark museum background, strong side light. Cropped to 4:3 from a portrait original; suitable for glitch treatment."
+   "note": "Ancient marble head against a dark museum background, strong side light. Cropped to 4:3 from a portrait original; suitable for glitch treatment.",
+   "original": "assets/img/face-statue.jpg",
+   "sm": "assets/img/face-statue-sm.webp",
+   "thumb": "assets/img/face-statue-th.webp"
   },
   {
    "id": "alone-screen",
-   "file": "assets/img/alone-screen.jpg",
+   "file": "assets/img/alone-screen.webp",
    "w": 2000,
    "h": 1333,
    "title": "A hooded figure alone on a bench at night, looking at a phone",
@@ -1016,11 +1244,14 @@ window.FILM_DATA = {
    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
    "source": "https://commons.wikimedia.org/wiki/File:Hooded_man_on_bench_(Unsplash).jpg",
    "focus": "68% 40%",
-   "note": "High-angle night shot; face hidden by the hood, phone glow visible, long shadow from a waste bin. Lit partly by street light."
+   "note": "High-angle night shot; face hidden by the hood, phone glow visible, long shadow from a waste bin. Lit partly by street light.",
+   "original": "assets/img/alone-screen.jpg",
+   "sm": "assets/img/alone-screen-sm.webp",
+   "thumb": "assets/img/alone-screen-th.webp"
   },
   {
    "id": "empty-office",
-   "file": "assets/img/empty-office.jpg",
+   "file": "assets/img/empty-office.webp",
    "w": 2000,
    "h": 1500,
    "title": "An empty cubicle farm in an open-plan office",
@@ -1029,11 +1260,14 @@ window.FILM_DATA = {
    "license_url": "https://creativecommons.org/licenses/by/2.0/",
    "source": "https://commons.wikimedia.org/wiki/File:Cube_Farm.jpg",
    "focus": "40% 50%",
-   "note": "Rows of empty cubicles under fluorescent panels, dim and greenish. Modest resolution (2048x1536 original)."
+   "note": "Rows of empty cubicles under fluorescent panels, dim and greenish. Modest resolution (2048x1536 original).",
+   "original": "assets/img/empty-office.jpg",
+   "sm": "assets/img/empty-office-sm.webp",
+   "thumb": "assets/img/empty-office-th.webp"
   },
   {
    "id": "power-lines",
-   "file": "assets/img/power-lines.jpg",
+   "file": "assets/img/power-lines.webp",
    "w": 2000,
    "h": 1333,
    "title": "High-voltage transmission towers silhouetted at sunset",
@@ -1042,11 +1276,14 @@ window.FILM_DATA = {
    "license_url": "https://creativecommons.org/licenses/by/4.0/",
    "source": "https://commons.wikimedia.org/wiki/File:Transmission_Lines_at_Sunset.jpg",
    "focus": "42% 45%",
-   "note": "A line of 247 kV lattice towers receding into an orange horizon; lower third is near-black for text."
+   "note": "A line of 247 kV lattice towers receding into an orange horizon; lower third is near-black for text.",
+   "original": "assets/img/power-lines.jpg",
+   "sm": "assets/img/power-lines-sm.webp",
+   "thumb": "assets/img/power-lines-th.webp"
   },
   {
    "id": "drone",
-   "file": "assets/img/drone.jpg",
+   "file": "assets/img/drone.webp",
    "w": 2000,
    "h": 1333,
    "title": "A quadcopter drone hovering over hills at dusk, Greece",
@@ -1055,11 +1292,14 @@ window.FILM_DATA = {
    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
    "source": "https://commons.wikimedia.org/wiki/File:Drone_flying_over_hills_(Unsplash).jpg",
    "focus": "48% 45%",
-   "note": "Drone in sharp focus against a moody sky and dark mountains."
+   "note": "Drone in sharp focus against a moody sky and dark mountains.",
+   "original": "assets/img/drone.jpg",
+   "sm": "assets/img/drone-sm.webp",
+   "thumb": "assets/img/drone-th.webp"
   },
   {
    "id": "environment",
-   "file": "assets/img/environment.jpg",
+   "file": "assets/img/environment.webp",
    "w": 2000,
    "h": 1333,
    "title": "Steam plumes rising from the cooling towers of Neurath lignite power station, Germany",
@@ -1068,11 +1308,14 @@ window.FILM_DATA = {
    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
    "source": "https://commons.wikimedia.org/wiki/File:KW_Neurath_-_180208.jpg",
    "focus": "50% 40%",
-   "note": "Huge plumes lit orange by low winter sun above the cooling towers and boiler houses; dark fields in the foreground. Photographed 8 February 2018."
+   "note": "Huge plumes lit orange by low winter sun above the cooling towers and boiler houses; dark fields in the foreground. Photographed 8 February 2018.",
+   "original": "assets/img/environment.jpg",
+   "sm": "assets/img/environment-sm.webp",
+   "thumb": "assets/img/environment-th.webp"
   },
   {
    "id": "assembly",
-   "file": "assets/img/assembly.jpg",
+   "file": "assets/img/assembly.webp",
    "w": 2000,
    "h": 1333,
    "title": "The United Nations General Assembly Hall in session, New York",
@@ -1081,11 +1324,14 @@ window.FILM_DATA = {
    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
    "source": "https://commons.wikimedia.org/wiki/File:United_Nations_General_Assembly_Hall_(3).jpg",
    "focus": "50% 45%",
-   "note": "Wide shot of the seated hall with the UN emblem on the gold wall; no individual in focus."
+   "note": "Wide shot of the seated hall with the UN emblem on the gold wall; no individual in focus.",
+   "original": "assets/img/assembly.jpg",
+   "sm": "assets/img/assembly-sm.webp",
+   "thumb": "assets/img/assembly-th.webp"
   },
   {
    "id": "eye",
-   "file": "assets/img/eye.jpg",
+   "file": "assets/img/eye.webp",
    "w": 2000,
    "h": 1333,
    "title": "Macro photograph of a human iris",
@@ -1094,11 +1340,14 @@ window.FILM_DATA = {
    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
    "source": "https://commons.wikimedia.org/wiki/File:Iris_of_human_male.jpg",
    "focus": "52% 50%",
-   "note": "Iris and pupil isolated on a black background; reads like a camera lens."
+   "note": "Iris and pupil isolated on a black background; reads like a camera lens.",
+   "original": "assets/img/eye.jpg",
+   "sm": "assets/img/eye-sm.webp",
+   "thumb": "assets/img/eye-th.webp"
   },
   {
    "id": "neurons",
-   "file": "assets/img/neurons.jpg",
+   "file": "assets/img/neurons.webp",
    "w": 2000,
    "h": 1125,
    "title": "Rat hippocampal neurons in culture, stained for acetylated tubulin (confocal microscopy)",
@@ -1107,11 +1356,14 @@ window.FILM_DATA = {
    "license_url": "https://creativecommons.org/licenses/by/4.0/",
    "source": "https://commons.wikimedia.org/wiki/File:Axons_Al_Dente.png",
    "focus": "50% 50%",
-   "note": "Commons title 'Axons Al Dente'. Dense golden web of axons on black. Cropped to 16:9 from a square original, with a very light blur so the file stays under 500 KB."
+   "note": "Commons title 'Axons Al Dente'. Dense golden web of axons on black. Cropped to 16:9 from a square original, with a very light blur so the file stays under 500 KB.",
+   "original": "assets/img/neurons.jpg",
+   "sm": "assets/img/neurons-sm.webp",
+   "thumb": "assets/img/neurons-th.webp"
   },
   {
    "id": "hand",
-   "file": "assets/img/hand.jpg",
+   "file": "assets/img/hand.webp",
    "w": 2000,
    "h": 1333,
    "title": "A hand reaching toward warm backlight",
@@ -1120,11 +1372,14 @@ window.FILM_DATA = {
    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
    "source": "https://commons.wikimedia.org/wiki/File:Mr_hand_3_(Unsplash).jpg",
    "focus": "55% 45%",
-   "note": "Open hand rim-lit against golden bokeh. Cropped to 3:2 from a portrait original."
+   "note": "Open hand rim-lit against golden bokeh. Cropped to 3:2 from a portrait original.",
+   "original": "assets/img/hand.jpg",
+   "sm": "assets/img/hand-sm.webp",
+   "thumb": "assets/img/hand-th.webp"
   },
   {
    "id": "sunrise-orbit",
-   "file": "assets/img/sunrise-orbit.jpg",
+   "file": "assets/img/sunrise-orbit.webp",
    "w": 2000,
    "h": 1331,
    "title": "Orbital sunrise over the Bering Sea, photographed from the International Space Station (Expedition 49)",
@@ -1133,11 +1388,14 @@ window.FILM_DATA = {
    "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
    "source": "https://commons.wikimedia.org/wiki/File:ISS-49_Sunrise_over_the_Bering_Sea.jpg",
    "focus": "55% 45%",
-   "note": "Thin bands of blue and orange along Earth's limb with the sun breaking through; mostly dark frame."
+   "note": "Thin bands of blue and orange along Earth's limb with the sun breaking through; mostly dark frame.",
+   "original": "assets/img/sunrise-orbit.jpg",
+   "sm": "assets/img/sunrise-orbit-sm.webp",
+   "thumb": "assets/img/sunrise-orbit-th.webp"
   },
   {
    "id": "power-trump",
-   "file": "assets/img/power-trump.jpg",
+   "file": "assets/img/power-trump.webp",
    "w": 1200,
    "h": 1600,
    "title": "Donald J. Trump, official presidential portrait, 2025",
@@ -1146,11 +1404,14 @@ window.FILM_DATA = {
    "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
    "source": "https://commons.wikimedia.org/wiki/File:Official_Presidential_Portrait_of_President_Donald_J._Trump_(2025)_(3x4_close_cropped).jpg",
    "focus": "50% 18%",
-   "noPool": true
+   "noPool": true,
+   "original": "assets/img/power-trump.jpg",
+   "sm": "assets/img/power-trump-sm.webp",
+   "thumb": "assets/img/power-trump-th.webp"
   },
   {
    "id": "power-xi",
-   "file": "assets/img/power-xi.jpg",
+   "file": "assets/img/power-xi.webp",
    "w": 836,
    "h": 1600,
    "title": "Xi Jinping, 2019",
@@ -1159,11 +1420,14 @@ window.FILM_DATA = {
    "license_url": "https://creativecommons.org/licenses/by/4.0",
    "source": "https://commons.wikimedia.org/wiki/File:Xi_Jinping_portrait_2019.jpg",
    "focus": "50% 14%",
-   "noPool": true
+   "noPool": true,
+   "original": "assets/img/power-xi.jpg",
+   "sm": "assets/img/power-xi-sm.webp",
+   "thumb": "assets/img/power-xi-th.webp"
   },
   {
    "id": "power-altman",
-   "file": "assets/img/power-altman.jpg",
+   "file": "assets/img/power-altman.webp",
    "w": 1173,
    "h": 1600,
    "title": "Sam Altman at TechCrunch Disrupt, San Francisco, 2019",
@@ -1172,11 +1436,14 @@ window.FILM_DATA = {
    "license_url": "https://creativecommons.org/licenses/by/2.0",
    "source": "https://commons.wikimedia.org/wiki/File:Sam_Altman_TechCrunch_SF_2019_Day_2_Oct_3_(cropped)_(cropped).jpg",
    "focus": "55% 24%",
-   "noPool": true
+   "noPool": true,
+   "original": "assets/img/power-altman.jpg",
+   "sm": "assets/img/power-altman-sm.webp",
+   "thumb": "assets/img/power-altman-th.webp"
   },
   {
    "id": "power-amodei",
-   "file": "assets/img/power-amodei.jpg",
+   "file": "assets/img/power-amodei.webp",
    "w": 1000,
    "h": 1600,
    "title": "Dario Amodei, 2023",
@@ -1185,7 +1452,10 @@ window.FILM_DATA = {
    "license_url": "https://creativecommons.org/licenses/by/2.0",
    "source": "https://commons.wikimedia.org/wiki/File:Dario_Amodei_in_2023.jpg",
    "focus": "58% 18%",
-   "noPool": true
+   "noPool": true,
+   "original": "assets/img/power-amodei.jpg",
+   "sm": "assets/img/power-amodei-sm.webp",
+   "thumb": "assets/img/power-amodei-th.webp"
   }
  ],
  "videos": [
@@ -1751,3 +2021,8 @@ window.FILM_DATA = {
   }
  ]
 };
+// Small screens get the 1280 px versions: lighter to download, still sharp on a phone
+(() => {
+  const px = Math.max(screen.width, screen.height) * Math.min(2, window.devicePixelRatio || 1);
+  if (px <= 1500 && !/capture=1/.test(location.search)) window.FILM_DATA.images.forEach(m => { if (m.sm) m.file = m.sm; });
+})();
